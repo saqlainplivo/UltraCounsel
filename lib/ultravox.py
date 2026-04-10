@@ -561,7 +561,10 @@ async def create_ultravox_session(
             },
             json=payload,
         )
-        response.raise_for_status()
+        if response.status_code >= 400:
+            raise ValueError(
+                f"Ultravox API error {response.status_code}: {response.text[:500]}"
+            )
         data = response.json()
 
     return data["joinUrl"]
