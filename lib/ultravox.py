@@ -243,8 +243,8 @@ async def create_ultravox_session(
     payload = {
         "systemPrompt": system_prompt,
         "model": "fixie-ai/ultravox-70B",
-        "voice": "Monika-English-Indian",   # Indian-accented English voice
-        "languageHint": "en-IN",
+        "voice": "Jacqueline",   # Empathic customer support female voice
+        "languageHint": "en",
         "firstSpeaker": "FIRST_SPEAKER_AGENT",
         "vadSettings": {
             "turnEndpointDelay": "0.96s",
