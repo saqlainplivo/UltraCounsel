@@ -262,7 +262,7 @@ async def create_ultravox_session(
                 "message": "It seems the line has gone quiet. If you'd like to know more about our courses, I'm here to help. Otherwise, have a great day!"
             }
         ],
-        "callTimeout": "300s",
+        "maxDuration": "300s",
         "selectedTools": [
             {
                 "temporaryTool": {
