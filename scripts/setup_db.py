@@ -10,8 +10,21 @@ import asyncio
 import asyncpg
 import json
 import os
+from datetime import date
 from pathlib import Path
 from dotenv import load_dotenv
+
+
+def parse_date(val):
+    """Convert 'YYYY-MM-DD' string to datetime.date, or None if missing/non-date."""
+    if not val:
+        return None
+    if isinstance(val, date):
+        return val
+    try:
+        return date.fromisoformat(str(val))
+    except ValueError:
+        return None  # non-date strings (e.g. "Rolling") become NULL
 
 load_dotenv()
 
@@ -344,7 +357,7 @@ async def setup():
         """,
         b["id"], b["course_id"], b["batch_name"], b["timing"],
         b.get("days_per_week"), b.get("days"),
-        b.get("start_date"), b.get("total_seats"), b.get("enrolled_students", 0),
+        parse_date(b.get("start_date")), b.get("total_seats"), b.get("enrolled_students", 0),
         b.get("mode"), b.get("branch_id"), b.get("is_active", True), b.get("note"))
     print(f"  ✔ {len(data.get('batches', []))} batches seeded")
 
@@ -400,7 +413,7 @@ async def setup():
         s["id"], s["name"], s.get("description"),
         s.get("discount_percent"), s.get("discount_flat"),
         s.get("eligibility"), applicable,
-        s.get("deadline"), s.get("installment_still_available", True))
+        parse_date(s.get("deadline")), s.get("installment_still_available", True))
     print(f"  ✔ {len(data.get('scholarships', []))} scholarships seeded")
 
     # Demo slots
@@ -411,7 +424,7 @@ async def setup():
             VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10)
             ON CONFLICT (id) DO NOTHING
         """,
-        d["id"], d["course_id"], d["slot_date"], d["slot_time"],
+        d["id"], d["course_id"], parse_date(d["slot_date"]), d["slot_time"],
         d.get("duration_hours", 2), d.get("mode"), d.get("meeting_link"),
         d.get("branch_id"), d.get("is_booked", False), d.get("topic"))
     print(f"  ✔ {len(data.get('demo_slots', []))} demo slots seeded")
