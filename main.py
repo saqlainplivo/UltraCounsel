@@ -84,6 +84,7 @@ async def health():
         "agent": "Sage",
         "institute": os.getenv("INSTITUTE_NAME", "Apex Coaching Institute"),
         "version": "1.0.0",
+        "app_base_url": os.getenv("APP_BASE_URL", "NOT SET"),
     }
 
 
