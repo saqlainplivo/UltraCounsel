@@ -3,6 +3,7 @@ lib/tools/get_batch_stats.py
 Returns cohort-level batch statistics and track record for a course.
 """
 
+import json
 import logging
 from datetime import datetime
 from lib.db import get_pool
@@ -76,8 +77,8 @@ async def get_batch_stats(course_id: str, call_id: str) -> dict:
 
             await conn.execute("""
                 INSERT INTO tool_calls (call_id, tool_name, input_data, output_data, success, duration_ms)
-                VALUES ($1,'get_batch_stats',$2,$3,true,$4)
-            """, call_id, {"course_id": course_id}, result, duration_ms)
+                VALUES ($1,'get_batch_stats',$2::jsonb,$3::jsonb,true,$4)
+            """, call_id, json.dumps({"course_id": course_id}), json.dumps(result, default=str), duration_ms)
 
             return result
 

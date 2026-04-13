@@ -4,6 +4,7 @@ Schedules a counselling, demo, or enrollment appointment at an Apex branch.
 Simulated (no Google Calendar) — stored in custom_appointments DB table.
 """
 
+import json
 import logging
 import secrets
 from datetime import date, datetime, timedelta
@@ -154,12 +155,12 @@ async def schedule_appointment(
 
             await conn.execute("""
                 INSERT INTO tool_calls (call_id, tool_name, input_data, output_data, success, duration_ms)
-                VALUES ($1,'schedule_appointment',$2,$3,true,$4)
-            """, call_id, {
+                VALUES ($1,'schedule_appointment',$2::jsonb,$3::jsonb,true,$4)
+            """, call_id, json.dumps({
                 "student_name": student_name, "preferred_date": preferred_date,
                 "preferred_time": preferred_time, "branch_or_city": branch_or_city,
                 "appointment_type": appointment_type
-            }, result, duration_ms)
+            }), json.dumps(result, default=str), duration_ms)
 
             return result
 
