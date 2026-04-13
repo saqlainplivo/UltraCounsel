@@ -23,6 +23,7 @@ from api.webhook.events import router as events_router
 from api.tools import router as tools_router
 from api.calls import router as calls_router
 from api.test import router as test_router
+from api.export import router as export_router
 
 load_dotenv()
 
@@ -72,6 +73,7 @@ app.include_router(events_router)
 app.include_router(tools_router)
 app.include_router(calls_router)
 app.include_router(test_router)
+app.include_router(export_router)
 
 
 # ── Health check ──────────────────────────────────────────────────────────────
