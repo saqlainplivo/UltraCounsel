@@ -1,6 +1,6 @@
 """
 api/tools.py
-HTTP endpoints for all 8 Ultravox tools.
+HTTP endpoints for all 10 Ultravox tools.
 These are called by Ultravox during a live call when Sage invokes a tool.
 """
 
@@ -16,6 +16,8 @@ from lib.tools.check_scholarship import check_scholarship
 from lib.tools.log_student_inquiry import log_student_inquiry
 from lib.tools.send_learning_plan import send_learning_plan
 from lib.tools.book_demo_class import book_demo_class
+from lib.tools.schedule_appointment import schedule_appointment
+from lib.tools.get_batch_stats import get_batch_stats
 
 router = APIRouter(prefix="/api/tools", tags=["tools"])
 
@@ -73,6 +75,22 @@ class BookDemoRequest(BaseModel):
     preferred_date: Optional[str] = "any"
     student_name: str
     caller_number_hash: str
+
+
+class ScheduleAppointmentRequest(BaseModel):
+    call_id: str
+    student_name: str
+    caller_hash: str
+    course_id: Optional[str] = ""
+    preferred_date: str
+    preferred_time: str
+    branch_or_city: str
+    appointment_type: Optional[str] = "counseling"
+
+
+class BatchStatsRequest(BaseModel):
+    course_id: str
+    call_id: str
 
 
 # ── Endpoints ─────────────────────────────────────────────────────────────────
@@ -142,3 +160,22 @@ async def tool_book_demo(req: BookDemoRequest):
         req.student_name,
         req.caller_number_hash,
     )
+
+
+@router.post("/schedule-appointment")
+async def tool_schedule_appointment(req: ScheduleAppointmentRequest):
+    return await schedule_appointment(
+        req.call_id,
+        req.student_name,
+        req.caller_hash,
+        req.course_id or "",
+        req.preferred_date,
+        req.preferred_time,
+        req.branch_or_city,
+        req.appointment_type or "counseling",
+    )
+
+
+@router.post("/batch-stats")
+async def tool_batch_stats(req: BatchStatsRequest):
+    return await get_batch_stats(req.course_id, req.call_id)
