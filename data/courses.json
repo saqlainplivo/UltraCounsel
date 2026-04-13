@@ -6,17 +6,33 @@
       "category": "School Tuition",
       "target_class": "Class 8",
       "board": "CBSE",
-      "subjects": ["Mathematics", "Science", "English", "Social Science"],
+      "subjects": [
+        "Mathematics",
+        "Science",
+        "English",
+        "Social Science"
+      ],
       "duration": "10 months",
       "fee": 45000,
-      "mode": ["offline", "online", "hybrid"],
+      "mode": [
+        "offline",
+        "online",
+        "hybrid"
+      ],
       "eligibility": "Students currently in Class 7 or entering Class 8",
       "description": "Comprehensive foundation program for Class 8 CBSE students. Builds strong conceptual understanding in Maths and Science while developing language and social studies skills aligned with the latest NCERT curriculum.",
       "study_material": "Apex proprietary modules + NCERT textbooks",
-      "reference_books": ["NCERT Class 8 Maths", "NCERT Class 8 Science", "RS Aggarwal Maths"],
+      "reference_books": [
+        "NCERT Class 8 Maths",
+        "NCERT Class 8 Science",
+        "RS Aggarwal Maths"
+      ],
       "test_frequency": "Weekly chapter tests + Monthly full-length tests",
       "installment_available": true,
-      "installment_plans": ["3 EMI of Rs 15,500 each", "6 EMI of Rs 8,000 each"]
+      "installment_plans": [
+        "3 EMI of Rs 15,500 each",
+        "6 EMI of Rs 8,000 each"
+      ]
     },
     {
       "id": "C8-ICSE",
@@ -24,17 +40,35 @@
       "category": "School Tuition",
       "target_class": "Class 8",
       "board": "ICSE",
-      "subjects": ["Mathematics", "Physics", "Chemistry", "Biology", "English", "History & Civics"],
+      "subjects": [
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "Biology",
+        "English",
+        "History & Civics"
+      ],
       "duration": "10 months",
       "fee": 48000,
-      "mode": ["offline", "online", "hybrid"],
+      "mode": [
+        "offline",
+        "online",
+        "hybrid"
+      ],
       "eligibility": "Students currently in Class 7 or entering Class 8 (ICSE)",
       "description": "Rigorous ICSE-aligned foundation program for Class 8. ICSE's depth in Physics, Chemistry, and Biology is handled with separate subject-specific modules. Strong emphasis on written expression and analytical thinking.",
       "study_material": "Apex ICSE proprietary modules",
-      "reference_books": ["S.Chand Science", "ML Aggarwal Maths for ICSE", "Beeta English"],
+      "reference_books": [
+        "S.Chand Science",
+        "ML Aggarwal Maths for ICSE",
+        "Beeta English"
+      ],
       "test_frequency": "Weekly tests + Bimonthly assessments",
       "installment_available": true,
-      "installment_plans": ["3 EMI of Rs 16,500 each", "6 EMI of Rs 8,500 each"]
+      "installment_plans": [
+        "3 EMI of Rs 16,500 each",
+        "6 EMI of Rs 8,500 each"
+      ]
     },
     {
       "id": "C9-CBSE",
@@ -42,17 +76,33 @@
       "category": "School Tuition",
       "target_class": "Class 9",
       "board": "CBSE",
-      "subjects": ["Mathematics", "Science", "English", "Social Science"],
+      "subjects": [
+        "Mathematics",
+        "Science",
+        "English",
+        "Social Science"
+      ],
       "duration": "10 months",
       "fee": 48000,
-      "mode": ["offline", "online", "hybrid"],
+      "mode": [
+        "offline",
+        "online",
+        "hybrid"
+      ],
       "eligibility": "Students entering Class 9 (CBSE)",
       "description": "Class 9 is where the real academic challenge begins. This program covers Class 9 CBSE syllabus in depth — Algebra, Coordinate Geometry, Chemical Reactions, Motion, Heredity, and more — while simultaneously laying the groundwork for Class 10 boards.",
       "study_material": "Apex proprietary modules + NCERT textbooks",
-      "reference_books": ["NCERT Maths 9", "NCERT Science 9", "RS Aggarwal Class 9"],
+      "reference_books": [
+        "NCERT Maths 9",
+        "NCERT Science 9",
+        "RS Aggarwal Class 9"
+      ],
       "test_frequency": "Fortnightly tests + Monthly Mock Tests",
       "installment_available": true,
-      "installment_plans": ["3 EMI of Rs 16,500 each", "6 EMI of Rs 8,500 each"]
+      "installment_plans": [
+        "3 EMI of Rs 16,500 each",
+        "6 EMI of Rs 8,500 each"
+      ]
     },
     {
       "id": "C9-ICSE",
@@ -60,17 +110,36 @@
       "category": "School Tuition",
       "target_class": "Class 9",
       "board": "ICSE",
-      "subjects": ["Mathematics", "Physics", "Chemistry", "Biology", "English Literature", "English Language", "History"],
+      "subjects": [
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "Biology",
+        "English Literature",
+        "English Language",
+        "History"
+      ],
       "duration": "10 months",
       "fee": 50000,
-      "mode": ["offline", "online", "hybrid"],
+      "mode": [
+        "offline",
+        "online",
+        "hybrid"
+      ],
       "eligibility": "Students entering Class 9 (ICSE)",
       "description": "Intensive ICSE Class 9 program. ICSE has 8+ subjects which are individually handled. Detailed attention to Physics, Chemistry, Biology separately — preparing students for ICSE's rigorous written exams and also subtly building competitive exam awareness.",
       "study_material": "Apex ICSE modules + Council prescribed textbooks",
-      "reference_books": ["Selina Maths ICSE", "Selina Physics/Chemistry/Biology", "S.Chand Geography"],
+      "reference_books": [
+        "Selina Maths ICSE",
+        "Selina Physics/Chemistry/Biology",
+        "S.Chand Geography"
+      ],
       "test_frequency": "Subject-wise weekly tests + Monthly assessments",
       "installment_available": true,
-      "installment_plans": ["3 EMI of Rs 17,000 each", "6 EMI of Rs 9,000 each"]
+      "installment_plans": [
+        "3 EMI of Rs 17,000 each",
+        "6 EMI of Rs 9,000 each"
+      ]
     },
     {
       "id": "C10-CBSE",
@@ -78,17 +147,33 @@
       "category": "School Tuition",
       "target_class": "Class 10",
       "board": "CBSE",
-      "subjects": ["Mathematics", "Science", "English", "Social Science"],
+      "subjects": [
+        "Mathematics",
+        "Science",
+        "English",
+        "Social Science"
+      ],
       "duration": "10 months",
       "fee": 55000,
-      "mode": ["offline", "online", "hybrid"],
+      "mode": [
+        "offline",
+        "online",
+        "hybrid"
+      ],
       "eligibility": "Students entering Class 10 (CBSE)",
       "description": "Board-focused intensive program for Class 10 CBSE. Special emphasis on CBSE exam patterns, marking schemes, and answer writing techniques. Covers entire syllabus by January for 3 months of dedicated revision and mock boards.",
       "study_material": "Apex Board Excellence modules + CBSE Sample Papers",
-      "reference_books": ["NCERT all subjects", "RD Sharma Maths", "CBSE Champion Series"],
+      "reference_books": [
+        "NCERT all subjects",
+        "RD Sharma Maths",
+        "CBSE Champion Series"
+      ],
       "test_frequency": "Weekly tests + 5 Full Mock Board exams",
       "installment_available": true,
-      "installment_plans": ["3 EMI of Rs 19,000 each", "6 EMI of Rs 9,800 each"]
+      "installment_plans": [
+        "3 EMI of Rs 19,000 each",
+        "6 EMI of Rs 9,800 each"
+      ]
     },
     {
       "id": "C10-ICSE",
@@ -96,17 +181,37 @@
       "category": "School Tuition",
       "target_class": "Class 10",
       "board": "ICSE",
-      "subjects": ["Mathematics", "Physics", "Chemistry", "Biology", "English Language", "English Literature", "History & Civics", "Geography"],
+      "subjects": [
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "Biology",
+        "English Language",
+        "English Literature",
+        "History & Civics",
+        "Geography"
+      ],
       "duration": "10 months",
       "fee": 58000,
-      "mode": ["offline", "online", "hybrid"],
+      "mode": [
+        "offline",
+        "online",
+        "hybrid"
+      ],
       "eligibility": "Students entering Class 10 (ICSE)",
       "description": "Comprehensive ICSE Class 10 board preparation. ICSE board exams are known for their depth. This program ensures thorough coverage of all subjects with answer-writing workshops, past paper analysis (10 years), and dedicated teachers for each subject.",
       "study_material": "Apex ICSE Board Excellence modules + ISC/ICSE past papers",
-      "reference_books": ["Selina Concise all subjects", "Frank Maths ICSE", "ICSE Guide Series"],
+      "reference_books": [
+        "Selina Concise all subjects",
+        "Frank Maths ICSE",
+        "ICSE Guide Series"
+      ],
       "test_frequency": "Subject-specific weekly tests + 6 Full Mock Board exams",
       "installment_available": true,
-      "installment_plans": ["3 EMI of Rs 20,000 each", "6 EMI of Rs 10,300 each"]
+      "installment_plans": [
+        "3 EMI of Rs 20,000 each",
+        "6 EMI of Rs 10,300 each"
+      ]
     },
     {
       "id": "JEE-M",
@@ -114,17 +219,33 @@
       "category": "IIT-JEE",
       "target_class": "Class 11-12",
       "board": "Any",
-      "subjects": ["Physics", "Chemistry", "Mathematics"],
+      "subjects": [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+      ],
       "duration": "2 years",
       "fee": 120000,
-      "mode": ["offline", "online", "hybrid"],
+      "mode": [
+        "offline",
+        "online",
+        "hybrid"
+      ],
       "eligibility": "Students entering Class 11 or current Class 11 students",
       "description": "Two-year comprehensive JEE Mains preparation program. Builds deep conceptual foundation in Physics, Chemistry, and Mathematics from Class 11 base topics through to full JEE Mains syllabus. Includes 2-year test series with performance tracking.",
       "study_material": "Apex JEE proprietary modules (PCM) — 6 volumes per subject",
-      "reference_books": ["HC Verma Physics Vol 1&2", "NCERT Chemistry", "RD Sharma / Arihant Maths", "JD Lee Inorganic"],
+      "reference_books": [
+        "HC Verma Physics Vol 1&2",
+        "NCERT Chemistry",
+        "RD Sharma / Arihant Maths",
+        "JD Lee Inorganic"
+      ],
       "test_frequency": "Chapter tests weekly + Monthly JEE Mains mock + Annual All-India Mock",
       "installment_available": true,
-      "installment_plans": ["4 EMI of Rs 31,000 each (yearly)", "8 EMI of Rs 16,000 each (6 months)"]
+      "installment_plans": [
+        "4 EMI of Rs 31,000 each (yearly)",
+        "8 EMI of Rs 16,000 each (6 months)"
+      ]
     },
     {
       "id": "JEE-A",
@@ -132,17 +253,32 @@
       "category": "IIT-JEE",
       "target_class": "Class 12",
       "board": "Any",
-      "subjects": ["Physics", "Chemistry", "Mathematics"],
+      "subjects": [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+      ],
       "duration": "1 year",
       "fee": 95000,
-      "mode": ["offline", "online", "hybrid"],
+      "mode": [
+        "offline",
+        "online",
+        "hybrid"
+      ],
       "eligibility": "Students in Class 12 or who have completed Class 12, targeting IIT",
       "description": "One-year high-intensity program targeting JEE Advanced. Assumes strong fundamentals. Focuses on JEE Advanced level problem solving — multi-concept questions, integer-type, paragraph questions. Designed for students aiming for top IIT seats.",
       "study_material": "Apex Advanced Problem Bank (500+ JEE Advanced level problems per subject)",
-      "reference_books": ["Irodov Physics", "MS Chauhan Organic Chemistry", "Krotov Problem Book"],
+      "reference_books": [
+        "Irodov Physics",
+        "MS Chauhan Organic Chemistry",
+        "Krotov Problem Book"
+      ],
       "test_frequency": "Twice-weekly tests + Monthly JEE Advanced mock (3-hour paper pattern)",
       "installment_available": true,
-      "installment_plans": ["3 EMI of Rs 32,500 each", "6 EMI of Rs 16,500 each"]
+      "installment_plans": [
+        "3 EMI of Rs 32,500 each",
+        "6 EMI of Rs 16,500 each"
+      ]
     },
     {
       "id": "JEE-D",
@@ -150,17 +286,29 @@
       "category": "IIT-JEE",
       "target_class": "Dropper (after Class 12)",
       "board": "Any",
-      "subjects": ["Physics", "Chemistry", "Mathematics"],
+      "subjects": [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+      ],
       "duration": "1 year",
       "fee": 85000,
-      "mode": ["offline", "hybrid"],
+      "mode": [
+        "offline",
+        "hybrid"
+      ],
       "eligibility": "Students who appeared for JEE in the previous year and are repeating",
       "description": "Specialized dropper program for JEE aspirants. Starts with a diagnostic test to identify weak areas. Personalized study plan combining targeted revision with new problem-solving strategies. Focus on mental resilience and time management.",
       "study_material": "Apex Dropper Revision Kit + fresh problem sets for weak topics",
-      "reference_books": ["Comprehensive coverage across HC Verma, Arihant, and NCERT"],
+      "reference_books": [
+        "Comprehensive coverage across HC Verma, Arihant, and NCERT"
+      ],
       "test_frequency": "3 tests per week (alternate subjects) + Fortnightly full JEE mock",
       "installment_available": true,
-      "installment_plans": ["3 EMI of Rs 29,000 each", "6 EMI of Rs 14,800 each"]
+      "installment_plans": [
+        "3 EMI of Rs 29,000 each",
+        "6 EMI of Rs 14,800 each"
+      ]
     },
     {
       "id": "NEET-2Y",
@@ -168,17 +316,33 @@
       "category": "NEET",
       "target_class": "Class 11-12",
       "board": "Any",
-      "subjects": ["Physics", "Chemistry", "Botany", "Zoology"],
+      "subjects": [
+        "Physics",
+        "Chemistry",
+        "Botany",
+        "Zoology"
+      ],
       "duration": "2 years",
       "fee": 110000,
-      "mode": ["offline", "online", "hybrid"],
+      "mode": [
+        "offline",
+        "online",
+        "hybrid"
+      ],
       "eligibility": "Students entering Class 11 who want to pursue MBBS / BDS",
       "description": "Comprehensive two-year NEET preparation starting from Class 11. NCERT-first approach — all Biology is taught chapter-by-chapter as per NCERT since NEET questions are directly from NCERT text. Physics and Chemistry taught conceptually with NEET-specific question patterns.",
       "study_material": "Apex NEET modules (NCERT-aligned) + Biology diagram handouts",
-      "reference_books": ["NCERT Biology Class 11 & 12 (primary)", "DC Pandey Physics", "NCERT Chemistry + Errorless"],
+      "reference_books": [
+        "NCERT Biology Class 11 & 12 (primary)",
+        "DC Pandey Physics",
+        "NCERT Chemistry + Errorless"
+      ],
       "test_frequency": "Weekly subject tests + Fortnightly NEET pattern test + Monthly full NEET mock",
       "installment_available": true,
-      "installment_plans": ["4 EMI of Rs 28,500 each (yearly)", "8 EMI of Rs 14,500 each"]
+      "installment_plans": [
+        "4 EMI of Rs 28,500 each (yearly)",
+        "8 EMI of Rs 14,500 each"
+      ]
     },
     {
       "id": "NEET-1Y",
@@ -186,17 +350,33 @@
       "category": "NEET",
       "target_class": "Class 12",
       "board": "Any",
-      "subjects": ["Physics", "Chemistry", "Botany", "Zoology"],
+      "subjects": [
+        "Physics",
+        "Chemistry",
+        "Botany",
+        "Zoology"
+      ],
       "duration": "1 year",
       "fee": 80000,
-      "mode": ["offline", "online", "hybrid"],
+      "mode": [
+        "offline",
+        "online",
+        "hybrid"
+      ],
       "eligibility": "Students in Class 12 targeting NEET this year",
       "description": "One-year intensive NEET program covering full Class 11 + Class 12 syllabus. Paced to complete theory by January for 4 months of revision and mock tests. NCERT Biology done line-by-line with assertion-reason and match-the-column practice.",
       "study_material": "Apex 1-Year NEET modules + NEET PYQ bank (10 years)",
-      "reference_books": ["NCERT Biology 11 & 12 (mandatory)", "MTG NEET Champion", "Errorless Physics"],
+      "reference_books": [
+        "NCERT Biology 11 & 12 (mandatory)",
+        "MTG NEET Champion",
+        "Errorless Physics"
+      ],
       "test_frequency": "Alternate-day subject tests + Weekly NEET mock (200 MCQ pattern)",
       "installment_available": true,
-      "installment_plans": ["3 EMI of Rs 27,500 each", "6 EMI of Rs 14,000 each"]
+      "installment_plans": [
+        "3 EMI of Rs 27,500 each",
+        "6 EMI of Rs 14,000 each"
+      ]
     },
     {
       "id": "NEET-R",
@@ -204,20 +384,34 @@
       "category": "NEET",
       "target_class": "Repeater (after Class 12)",
       "board": "Any",
-      "subjects": ["Physics", "Chemistry", "Botany", "Zoology"],
+      "subjects": [
+        "Physics",
+        "Chemistry",
+        "Botany",
+        "Zoology"
+      ],
       "duration": "6 months",
       "fee": 65000,
-      "mode": ["offline", "hybrid"],
+      "mode": [
+        "offline",
+        "hybrid"
+      ],
       "eligibility": "Students who appeared for NEET previously and are retaking",
       "description": "Focused crash course for NEET repeaters. Diagnostic test on Day 1 to identify weak chapters. Rapid revision of all chapters with special focus on high-weightage NCERT Biology paragraphs. Includes 15 full-length NEET mock tests for exam conditioning.",
       "study_material": "Apex Repeater Revision Kit + High-yield Biology flashcards",
-      "reference_books": ["NCERT Biology (primary)", "NEET 10 Year Solved Papers", "Errorless Biology"],
+      "reference_books": [
+        "NCERT Biology (primary)",
+        "NEET 10 Year Solved Papers",
+        "Errorless Biology"
+      ],
       "test_frequency": "3 full NEET mocks per week in final 2 months",
       "installment_available": true,
-      "installment_plans": ["2 EMI of Rs 33,500 each", "3 EMI of Rs 22,500 each"]
+      "installment_plans": [
+        "2 EMI of Rs 33,500 each",
+        "3 EMI of Rs 22,500 each"
+      ]
     }
   ],
-
   "batches": [
     {
       "id": "B001",
@@ -323,17 +517,172 @@
       "branch_id": "B-PUNE-HQ",
       "is_active": true,
       "note": "Full-day intensive for droppers. Hybrid mode — can switch between offline and online as needed."
+    },
+    {
+      "id": "B101",
+      "course_id": "JEE-M",
+      "batch_name": "JEE Mains Morning Batch — Delhi Dwarka",
+      "timing": "7:00 AM to 9:00 AM",
+      "days_per_week": 6,
+      "days": "Monday to Saturday",
+      "start_date": "2025-07-01",
+      "total_seats": 30,
+      "enrolled_students": 8,
+      "mode": "offline",
+      "branch_id": "B-DELHI-DWK",
+      "is_active": true,
+      "note": "Morning batch at Dwarka branch. Metro-accessible location."
+    },
+    {
+      "id": "B102",
+      "course_id": "NEET-1Y",
+      "batch_name": "NEET Intensive Batch — Delhi Dwarka",
+      "timing": "4:00 PM to 7:00 PM",
+      "days_per_week": 6,
+      "days": "Monday to Saturday",
+      "start_date": "2025-07-01",
+      "total_seats": 25,
+      "enrolled_students": 6,
+      "mode": "offline",
+      "branch_id": "B-DELHI-DWK",
+      "is_active": true,
+      "note": "Evening batch ideal for school-going students in Dwarka."
+    },
+    {
+      "id": "B103",
+      "course_id": "JEE-M",
+      "batch_name": "JEE Mains Batch — Bangalore Koramangala",
+      "timing": "6:30 AM to 8:30 AM",
+      "days_per_week": 6,
+      "days": "Monday to Saturday",
+      "start_date": "2025-07-01",
+      "total_seats": 30,
+      "enrolled_students": 12,
+      "mode": "offline",
+      "branch_id": "B-BLR-KRM",
+      "is_active": true,
+      "note": "Early morning batch at Koramangala — popular in Bangalore tech hub area."
+    },
+    {
+      "id": "B104",
+      "course_id": "NEET-2Y",
+      "batch_name": "NEET Foundation Batch — Bangalore Koramangala",
+      "timing": "7:00 AM to 9:30 AM",
+      "days_per_week": 6,
+      "days": "Monday to Saturday",
+      "start_date": "2025-07-01",
+      "total_seats": 30,
+      "enrolled_students": 10,
+      "mode": "hybrid",
+      "branch_id": "B-BLR-KRM",
+      "is_active": true,
+      "note": "Hybrid batch with offline and online options."
+    },
+    {
+      "id": "B105",
+      "course_id": "JEE-M",
+      "batch_name": "JEE Mains Morning Batch — Hyderabad",
+      "timing": "7:00 AM to 9:00 AM",
+      "days_per_week": 6,
+      "days": "Monday to Saturday",
+      "start_date": "2025-07-01",
+      "total_seats": 30,
+      "enrolled_students": 15,
+      "mode": "offline",
+      "branch_id": "B-HYD",
+      "is_active": true,
+      "note": "Popular batch at Gachibowli branch near IT corridor."
+    },
+    {
+      "id": "B106",
+      "course_id": "NEET-1Y",
+      "batch_name": "NEET Intensive Batch — Chennai",
+      "timing": "4:00 PM to 7:00 PM",
+      "days_per_week": 6,
+      "days": "Monday to Saturday",
+      "start_date": "2025-07-01",
+      "total_seats": 25,
+      "enrolled_students": 9,
+      "mode": "offline",
+      "branch_id": "B-CHN",
+      "is_active": true,
+      "note": "Evening NEET batch at Anna Nagar — strong demand in Tamil Nadu."
+    },
+    {
+      "id": "B107",
+      "course_id": "JEE-M",
+      "batch_name": "JEE Mains Batch — Kota Morning",
+      "timing": "6:00 AM to 9:00 AM",
+      "days_per_week": 6,
+      "days": "Monday to Saturday",
+      "start_date": "2025-07-01",
+      "total_seats": 40,
+      "enrolled_students": 28,
+      "mode": "offline",
+      "branch_id": "B-KOT",
+      "is_active": true,
+      "note": "Kota's flagship JEE morning batch — intensive daily schedule for full-time students."
+    },
+    {
+      "id": "B108",
+      "course_id": "NEET-2Y",
+      "batch_name": "NEET Foundation Batch — Kota",
+      "timing": "6:00 AM to 9:00 AM",
+      "days_per_week": 6,
+      "days": "Monday to Saturday",
+      "start_date": "2025-07-01",
+      "total_seats": 40,
+      "enrolled_students": 22,
+      "mode": "offline",
+      "branch_id": "B-KOT",
+      "is_active": true,
+      "note": "Full-time NEET batch at Kota — designed for students who have relocated to Kota."
+    },
+    {
+      "id": "B109",
+      "course_id": "JEE-M",
+      "batch_name": "JEE Mains Batch — Noida",
+      "timing": "7:00 AM to 9:00 AM",
+      "days_per_week": 6,
+      "days": "Monday to Saturday",
+      "start_date": "2025-07-01",
+      "total_seats": 30,
+      "enrolled_students": 11,
+      "mode": "offline",
+      "branch_id": "B-NOIDA",
+      "is_active": true,
+      "note": "Morning batch at Noida Sector 62 — convenient for NCR students."
+    },
+    {
+      "id": "B110",
+      "course_id": "NEET-2Y",
+      "batch_name": "NEET Foundation Batch — Patna",
+      "timing": "7:00 AM to 9:30 AM",
+      "days_per_week": 6,
+      "days": "Monday to Saturday",
+      "start_date": "2025-07-01",
+      "total_seats": 35,
+      "enrolled_students": 18,
+      "mode": "offline",
+      "branch_id": "B-PAT",
+      "is_active": true,
+      "note": "High-demand NEET batch in Bihar — Bihar has strong medical aspirant base."
     }
   ],
-
   "faculty": [
     {
       "id": "F001",
       "name": "Dr. Rajan Mehta",
       "qualification": "IIT Bombay (BTech + PhD, Physics)",
       "experience_years": 16,
-      "subjects": ["Physics"],
-      "assigned_courses": ["JEE-M", "JEE-A", "JEE-D"],
+      "subjects": [
+        "Physics"
+      ],
+      "assigned_courses": [
+        "JEE-M",
+        "JEE-A",
+        "JEE-D"
+      ],
       "specialization": "Mechanics, Electrostatics, Modern Physics",
       "teaching_style": "Conceptual-first, then problem-solving. Known for 3-step method to crack JEE Physics problems.",
       "past_results": "35 students placed in IIT in last 5 years, including AIR 42 in JEE Advanced 2023",
@@ -344,8 +693,13 @@
       "name": "Prof. Anita Sharma",
       "qualification": "IIT Delhi (BTech Chemistry), M.Sc Organic Chemistry",
       "experience_years": 14,
-      "subjects": ["Chemistry"],
-      "assigned_courses": ["JEE-M", "JEE-A"],
+      "subjects": [
+        "Chemistry"
+      ],
+      "assigned_courses": [
+        "JEE-M",
+        "JEE-A"
+      ],
       "specialization": "Organic Chemistry, Physical Chemistry (Thermodynamics, Equilibrium)",
       "teaching_style": "Mechanism-based organic teaching. Students learn to derive answers rather than memorise.",
       "past_results": "JEE Advanced Chemistry toppers in 2022 and 2024 batch",
@@ -356,8 +710,16 @@
       "name": "Mr. Kiran Patil",
       "qualification": "IIT Kharagpur (BTech Mathematics)",
       "experience_years": 11,
-      "subjects": ["Mathematics"],
-      "assigned_courses": ["JEE-M", "JEE-A", "JEE-D", "C9-CBSE", "C10-CBSE"],
+      "subjects": [
+        "Mathematics"
+      ],
+      "assigned_courses": [
+        "JEE-M",
+        "JEE-A",
+        "JEE-D",
+        "C9-CBSE",
+        "C10-CBSE"
+      ],
       "specialization": "Calculus, Algebra, Coordinate Geometry for JEE",
       "teaching_style": "Problem-solving intensive with speed shortcuts. Weekly olympiad-style questions to stretch top students.",
       "past_results": "3 students in top 100 JEE Advanced Math scores in 2023",
@@ -368,8 +730,14 @@
       "name": "Dr. Priya Nair",
       "qualification": "AIIMS Delhi (MBBS), MD (Anatomy & Physiology)",
       "experience_years": 13,
-      "subjects": ["Biology (Botany & Zoology)"],
-      "assigned_courses": ["NEET-2Y", "NEET-1Y", "NEET-R"],
+      "subjects": [
+        "Biology (Botany & Zoology)"
+      ],
+      "assigned_courses": [
+        "NEET-2Y",
+        "NEET-1Y",
+        "NEET-R"
+      ],
       "specialization": "Human Physiology, Genetics & Biotechnology, Ecology",
       "teaching_style": "NCERT line-by-line with assertion-reason practice built in. Famous for the 'NCERT Highlight Method'.",
       "past_results": "42 students qualified NEET in last 3 years. 2 students in AIIMS Delhi (2023 & 2024).",
@@ -380,8 +748,15 @@
       "name": "Mr. Suresh Rao",
       "qualification": "IIT Madras (BTech), CSIR NET Physics",
       "experience_years": 10,
-      "subjects": ["Physics"],
-      "assigned_courses": ["NEET-2Y", "NEET-1Y", "C9-CBSE", "C10-CBSE"],
+      "subjects": [
+        "Physics"
+      ],
+      "assigned_courses": [
+        "NEET-2Y",
+        "NEET-1Y",
+        "C9-CBSE",
+        "C10-CBSE"
+      ],
       "specialization": "Optics, Waves, Current Electricity for NEET & Boards",
       "teaching_style": "Visual and diagram-heavy teaching. Makes abstract concepts tangible with real-world analogies.",
       "past_results": "Consistent 95%+ scores in Physics for Board students over 7 years",
@@ -392,8 +767,16 @@
       "name": "Ms. Deepika Joshi",
       "qualification": "M.Sc Chemistry (University of Pune), B.Ed",
       "experience_years": 9,
-      "subjects": ["Chemistry"],
-      "assigned_courses": ["NEET-2Y", "NEET-1Y", "NEET-R", "C8-CBSE", "C9-CBSE"],
+      "subjects": [
+        "Chemistry"
+      ],
+      "assigned_courses": [
+        "NEET-2Y",
+        "NEET-1Y",
+        "NEET-R",
+        "C8-CBSE",
+        "C9-CBSE"
+      ],
       "specialization": "Inorganic Chemistry, Coordination Compounds, NCERT Chemistry for NEET",
       "teaching_style": "Pattern-based approach for NEET Inorganic. Teaches mnemonics for d-block and coordination compounds.",
       "past_results": "Chemistry scores above NEET cut-off for 90% of her students in 2023",
@@ -404,8 +787,15 @@
       "name": "Mrs. Lalitha Krishnan",
       "qualification": "M.Sc Mathematics, M.Ed, 18 years teaching experience",
       "experience_years": 18,
-      "subjects": ["Mathematics"],
-      "assigned_courses": ["C8-CBSE", "C8-ICSE", "C9-ICSE", "C10-ICSE"],
+      "subjects": [
+        "Mathematics"
+      ],
+      "assigned_courses": [
+        "C8-CBSE",
+        "C8-ICSE",
+        "C9-ICSE",
+        "C10-ICSE"
+      ],
       "specialization": "ICSE Mathematics, Algebra, Geometry, Statistics",
       "teaching_style": "Patient and concept-oriented. Known for making Trigonometry and Coordinate Geometry easy for Class 9-10 students.",
       "past_results": "ICSE batch students average 91% in Mathematics over last 5 years",
@@ -416,67 +806,701 @@
       "name": "Mr. Arjun Das",
       "qualification": "IIT Guwahati (BTech), Online teaching certified",
       "experience_years": 8,
-      "subjects": ["Physics", "Mathematics"],
-      "assigned_courses": ["JEE-M", "C8-CBSE", "C9-CBSE"],
+      "subjects": [
+        "Physics",
+        "Mathematics"
+      ],
+      "assigned_courses": [
+        "JEE-M",
+        "C8-CBSE",
+        "C9-CBSE"
+      ],
       "specialization": "Online teaching methodology, JEE Mains Physics",
       "teaching_style": "Interactive online sessions with live polls, digital whiteboard. Specializes in bridging Class 10 to 11 transition.",
       "past_results": "Top-rated faculty on Apex online platform with 4.8/5 student rating",
       "availability": "online only"
     }
   ],
-
   "syllabus_topics": [
-    {"course_id": "JEE-M", "sequence_order": 1, "topic_name": "Basic Mathematics for Physics", "sub_topics": ["Vectors", "Calculus basics", "Trigonometry"], "ncert_aligned": false, "estimated_weeks": 2, "difficulty": "foundation"},
-    {"course_id": "JEE-M", "sequence_order": 2, "topic_name": "Kinematics", "sub_topics": ["Motion in 1D", "Projectile Motion", "Relative Motion"], "ncert_aligned": true, "estimated_weeks": 3, "difficulty": "foundation"},
-    {"course_id": "JEE-M", "sequence_order": 3, "topic_name": "Newton's Laws of Motion", "sub_topics": ["Force analysis", "Friction", "Circular Motion"], "ncert_aligned": true, "estimated_weeks": 3, "difficulty": "intermediate"},
-    {"course_id": "JEE-M", "sequence_order": 4, "topic_name": "Work, Energy and Power", "sub_topics": ["Work-Energy theorem", "Conservation of Energy", "Spring problems"], "ncert_aligned": true, "estimated_weeks": 2, "difficulty": "intermediate"},
-    {"course_id": "JEE-M", "sequence_order": 5, "topic_name": "Rotational Motion", "sub_topics": ["Torque", "Moment of Inertia", "Rolling Motion"], "ncert_aligned": true, "estimated_weeks": 3, "difficulty": "advanced"},
-    {"course_id": "JEE-M", "sequence_order": 6, "topic_name": "Gravitation", "sub_topics": ["Kepler's Laws", "Gravitational Potential", "Satellites"], "ncert_aligned": true, "estimated_weeks": 2, "difficulty": "intermediate"},
-    {"course_id": "JEE-M", "sequence_order": 7, "topic_name": "Thermodynamics", "sub_topics": ["Laws of Thermodynamics", "Carnot Engine", "KTG"], "ncert_aligned": true, "estimated_weeks": 3, "difficulty": "intermediate"},
-    {"course_id": "JEE-M", "sequence_order": 8, "topic_name": "Electrostatics", "sub_topics": ["Coulomb's Law", "Electric Field", "Gauss's Law", "Capacitors"], "ncert_aligned": true, "estimated_weeks": 4, "difficulty": "advanced"},
-    {"course_id": "JEE-M", "sequence_order": 9, "topic_name": "Current Electricity", "sub_topics": ["Ohm's Law", "Kirchhoff's Laws", "Wheatstone Bridge"], "ncert_aligned": true, "estimated_weeks": 3, "difficulty": "intermediate"},
-    {"course_id": "JEE-M", "sequence_order": 10, "topic_name": "Magnetism & Moving Charges", "sub_topics": ["Biot-Savart Law", "Ampere's Law", "Lorentz Force"], "ncert_aligned": true, "estimated_weeks": 3, "difficulty": "advanced"},
-    {"course_id": "JEE-M", "sequence_order": 11, "topic_name": "Electromagnetic Induction", "sub_topics": ["Faraday's Law", "Lenz's Law", "Inductance", "Transformers"], "ncert_aligned": true, "estimated_weeks": 3, "difficulty": "advanced"},
-    {"course_id": "JEE-M", "sequence_order": 12, "topic_name": "Optics", "sub_topics": ["Ray Optics", "Wave Optics", "Interference", "Diffraction"], "ncert_aligned": true, "estimated_weeks": 4, "difficulty": "advanced"},
-    {"course_id": "JEE-M", "sequence_order": 13, "topic_name": "Modern Physics", "sub_topics": ["Photoelectric Effect", "Bohr Model", "Nuclear Physics", "Radioactivity"], "ncert_aligned": true, "estimated_weeks": 3, "difficulty": "advanced"},
-    {"course_id": "JEE-M", "sequence_order": 14, "topic_name": "Organic Chemistry - Basics", "sub_topics": ["IUPAC Nomenclature", "Isomerism", "Reaction Mechanisms (SN1, SN2, E1, E2)"], "ncert_aligned": false, "estimated_weeks": 4, "difficulty": "intermediate"},
-    {"course_id": "JEE-M", "sequence_order": 15, "topic_name": "Hydrocarbons & Functional Groups", "sub_topics": ["Alkanes", "Alkenes", "Alkynes", "Benzene", "Alcohols", "Aldehydes", "Carboxylic Acids", "Amines"], "ncert_aligned": true, "estimated_weeks": 5, "difficulty": "advanced"},
-    {"course_id": "JEE-M", "sequence_order": 16, "topic_name": "Physical Chemistry", "sub_topics": ["Chemical Equilibrium", "Electrochemistry", "Chemical Kinetics", "Solutions"], "ncert_aligned": true, "estimated_weeks": 5, "difficulty": "advanced"},
-    {"course_id": "JEE-M", "sequence_order": 17, "topic_name": "Inorganic Chemistry", "sub_topics": ["Periodic Table trends", "Chemical Bonding", "s-block", "p-block", "d-block", "Coordination Compounds"], "ncert_aligned": true, "estimated_weeks": 5, "difficulty": "intermediate"},
-    {"course_id": "JEE-M", "sequence_order": 18, "topic_name": "Algebra", "sub_topics": ["Quadratic Equations", "Sequences & Series", "Complex Numbers", "Binomial Theorem", "Permutations & Combinations", "Probability"], "ncert_aligned": false, "estimated_weeks": 6, "difficulty": "intermediate"},
-    {"course_id": "JEE-M", "sequence_order": 19, "topic_name": "Coordinate Geometry", "sub_topics": ["Straight Lines", "Circles", "Parabola", "Ellipse", "Hyperbola"], "ncert_aligned": false, "estimated_weeks": 5, "difficulty": "advanced"},
-    {"course_id": "JEE-M", "sequence_order": 20, "topic_name": "Calculus", "sub_topics": ["Limits", "Differentiation", "Application of Derivatives", "Indefinite Integration", "Definite Integration", "Differential Equations"], "ncert_aligned": false, "estimated_weeks": 7, "difficulty": "advanced"},
-    {"course_id": "JEE-M", "sequence_order": 21, "topic_name": "Trigonometry & Vectors", "sub_topics": ["Trigonometric functions", "Inverse Trig", "3D Geometry", "Vector Algebra"], "ncert_aligned": false, "estimated_weeks": 4, "difficulty": "intermediate"},
-    {"course_id": "NEET-2Y", "sequence_order": 1, "topic_name": "The Living World", "sub_topics": ["Taxonomy", "Nomenclature", "Classification"], "ncert_aligned": true, "estimated_weeks": 1, "difficulty": "foundation"},
-    {"course_id": "NEET-2Y", "sequence_order": 2, "topic_name": "Biological Classification", "sub_topics": ["Monera", "Protista", "Fungi", "Plantae", "Animalia"], "ncert_aligned": true, "estimated_weeks": 2, "difficulty": "foundation"},
-    {"course_id": "NEET-2Y", "sequence_order": 3, "topic_name": "Plant Kingdom", "sub_topics": ["Algae", "Bryophytes", "Pteridophytes", "Gymnosperms", "Angiosperms"], "ncert_aligned": true, "estimated_weeks": 2, "difficulty": "intermediate"},
-    {"course_id": "NEET-2Y", "sequence_order": 4, "topic_name": "Animal Kingdom", "sub_topics": ["Phylum classification", "Structural features", "Key distinguishing characters"], "ncert_aligned": true, "estimated_weeks": 2, "difficulty": "intermediate"},
-    {"course_id": "NEET-2Y", "sequence_order": 5, "topic_name": "Cell Structure & Function", "sub_topics": ["Prokaryotic cell", "Eukaryotic cell", "Cell organelles", "Cell wall & membrane"], "ncert_aligned": true, "estimated_weeks": 2, "difficulty": "foundation"},
-    {"course_id": "NEET-2Y", "sequence_order": 6, "topic_name": "Biomolecules", "sub_topics": ["Carbohydrates", "Proteins", "Lipids", "Nucleic Acids", "Enzymes"], "ncert_aligned": true, "estimated_weeks": 2, "difficulty": "intermediate"},
-    {"course_id": "NEET-2Y", "sequence_order": 7, "topic_name": "Cell Division", "sub_topics": ["Mitosis", "Meiosis", "Cell Cycle"], "ncert_aligned": true, "estimated_weeks": 2, "difficulty": "intermediate"},
-    {"course_id": "NEET-2Y", "sequence_order": 8, "topic_name": "Transport in Plants", "sub_topics": ["Osmosis", "Plasmolysis", "Transpiration", "Phloem transport"], "ncert_aligned": true, "estimated_weeks": 2, "difficulty": "intermediate"},
-    {"course_id": "NEET-2Y", "sequence_order": 9, "topic_name": "Photosynthesis", "sub_topics": ["Light reactions", "Calvin cycle", "C4 & CAM plants", "Photorespiration"], "ncert_aligned": true, "estimated_weeks": 2, "difficulty": "advanced"},
-    {"course_id": "NEET-2Y", "sequence_order": 10, "topic_name": "Respiration in Plants", "sub_topics": ["Glycolysis", "Kreb's Cycle", "ETC", "Fermentation"], "ncert_aligned": true, "estimated_weeks": 2, "difficulty": "advanced"},
-    {"course_id": "NEET-2Y", "sequence_order": 11, "topic_name": "Human Physiology (Digestion, Breathing, Circulation)", "sub_topics": ["Digestive system", "Respiratory system", "Circulatory system"], "ncert_aligned": true, "estimated_weeks": 4, "difficulty": "intermediate"},
-    {"course_id": "NEET-2Y", "sequence_order": 12, "topic_name": "Human Physiology (Excretion, Locomotion, Neural, Endocrine)", "sub_topics": ["Kidney function", "Muscle contraction", "Neural control", "Hormones"], "ncert_aligned": true, "estimated_weeks": 4, "difficulty": "advanced"},
-    {"course_id": "NEET-2Y", "sequence_order": 13, "topic_name": "Reproduction", "sub_topics": ["Sexual reproduction in plants", "Human reproduction", "Reproductive health"], "ncert_aligned": true, "estimated_weeks": 3, "difficulty": "intermediate"},
-    {"course_id": "NEET-2Y", "sequence_order": 14, "topic_name": "Genetics & Evolution", "sub_topics": ["Mendelian Genetics", "Molecular basis of inheritance", "DNA replication", "Evolution & Natural Selection"], "ncert_aligned": true, "estimated_weeks": 5, "difficulty": "advanced"},
-    {"course_id": "NEET-2Y", "sequence_order": 15, "topic_name": "Biology in Human Welfare & Biotechnology", "sub_topics": ["Microbes in human welfare", "Biotechnology principles", "Transgenic organisms", "Bioethics"], "ncert_aligned": true, "estimated_weeks": 3, "difficulty": "intermediate"},
-    {"course_id": "NEET-2Y", "sequence_order": 16, "topic_name": "Ecology", "sub_topics": ["Organisms and environment", "Ecosystems", "Biodiversity", "Environmental issues"], "ncert_aligned": true, "estimated_weeks": 3, "difficulty": "foundation"},
-    {"course_id": "C10-CBSE", "sequence_order": 1, "topic_name": "Real Numbers & Polynomials", "sub_topics": ["Euclid's algorithm", "Irrational Numbers", "Polynomial division"], "ncert_aligned": true, "estimated_weeks": 2, "difficulty": "foundation"},
-    {"course_id": "C10-CBSE", "sequence_order": 2, "topic_name": "Linear Equations & Quadratics", "sub_topics": ["Pair of linear equations", "Graphical method", "Quadratic formula", "Nature of roots"], "ncert_aligned": true, "estimated_weeks": 3, "difficulty": "intermediate"},
-    {"course_id": "C10-CBSE", "sequence_order": 3, "topic_name": "Arithmetic Progressions & Triangles", "sub_topics": ["AP formula", "Sum of AP", "Similar triangles", "Thales theorem"], "ncert_aligned": true, "estimated_weeks": 3, "difficulty": "intermediate"},
-    {"course_id": "C10-CBSE", "sequence_order": 4, "topic_name": "Trigonometry", "sub_topics": ["Trig ratios", "Trig identities", "Heights and distances"], "ncert_aligned": true, "estimated_weeks": 3, "difficulty": "intermediate"},
-    {"course_id": "C10-CBSE", "sequence_order": 5, "topic_name": "Circles, Constructions & Mensuration", "sub_topics": ["Tangents to circle", "Areas", "Surface areas and volumes"], "ncert_aligned": true, "estimated_weeks": 3, "difficulty": "intermediate"},
-    {"course_id": "C10-CBSE", "sequence_order": 6, "topic_name": "Statistics & Probability", "sub_topics": ["Mean/Median/Mode of grouped data", "Probability basics"], "ncert_aligned": true, "estimated_weeks": 2, "difficulty": "foundation"},
-    {"course_id": "C10-CBSE", "sequence_order": 7, "topic_name": "Chemical Reactions & Acids/Bases", "sub_topics": ["Types of reactions", "Balancing equations", "Acid-Base-Salt properties"], "ncert_aligned": true, "estimated_weeks": 3, "difficulty": "foundation"},
-    {"course_id": "C10-CBSE", "sequence_order": 8, "topic_name": "Metals, Non-metals & Carbon Compounds", "sub_topics": ["Reactivity series", "Ionic compounds", "Carbon chemistry basics"], "ncert_aligned": true, "estimated_weeks": 3, "difficulty": "intermediate"},
-    {"course_id": "C10-CBSE", "sequence_order": 9, "topic_name": "Life Processes & Control in Living Organisms", "sub_topics": ["Nutrition", "Respiration", "Excretion", "Nervous system"], "ncert_aligned": true, "estimated_weeks": 4, "difficulty": "intermediate"},
-    {"course_id": "C10-CBSE", "sequence_order": 10, "topic_name": "Heredity, Evolution & Environment", "sub_topics": ["Mendel's laws", "Acquired vs inherited traits", "Food chains", "Ecosystems"], "ncert_aligned": true, "estimated_weeks": 3, "difficulty": "foundation"},
-    {"course_id": "C10-CBSE", "sequence_order": 11, "topic_name": "Light, Electricity & Magnetic Effects", "sub_topics": ["Reflection/Refraction", "Human eye", "Ohm's Law circuits", "Magnetic field"], "ncert_aligned": true, "estimated_weeks": 4, "difficulty": "intermediate"},
-    {"course_id": "C10-CBSE", "sequence_order": 12, "topic_name": "Board Revision & Mock Tests", "sub_topics": ["Full syllabus revision", "5 mock boards", "Answer writing workshops", "Previous year paper analysis"], "ncert_aligned": true, "estimated_weeks": 6, "difficulty": "advanced"}
+    {
+      "course_id": "JEE-M",
+      "sequence_order": 1,
+      "topic_name": "Basic Mathematics for Physics",
+      "sub_topics": [
+        "Vectors",
+        "Calculus basics",
+        "Trigonometry"
+      ],
+      "ncert_aligned": false,
+      "estimated_weeks": 2,
+      "difficulty": "foundation"
+    },
+    {
+      "course_id": "JEE-M",
+      "sequence_order": 2,
+      "topic_name": "Kinematics",
+      "sub_topics": [
+        "Motion in 1D",
+        "Projectile Motion",
+        "Relative Motion"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 3,
+      "difficulty": "foundation"
+    },
+    {
+      "course_id": "JEE-M",
+      "sequence_order": 3,
+      "topic_name": "Newton's Laws of Motion",
+      "sub_topics": [
+        "Force analysis",
+        "Friction",
+        "Circular Motion"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 3,
+      "difficulty": "intermediate"
+    },
+    {
+      "course_id": "JEE-M",
+      "sequence_order": 4,
+      "topic_name": "Work, Energy and Power",
+      "sub_topics": [
+        "Work-Energy theorem",
+        "Conservation of Energy",
+        "Spring problems"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 2,
+      "difficulty": "intermediate"
+    },
+    {
+      "course_id": "JEE-M",
+      "sequence_order": 5,
+      "topic_name": "Rotational Motion",
+      "sub_topics": [
+        "Torque",
+        "Moment of Inertia",
+        "Rolling Motion"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 3,
+      "difficulty": "advanced"
+    },
+    {
+      "course_id": "JEE-M",
+      "sequence_order": 6,
+      "topic_name": "Gravitation",
+      "sub_topics": [
+        "Kepler's Laws",
+        "Gravitational Potential",
+        "Satellites"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 2,
+      "difficulty": "intermediate"
+    },
+    {
+      "course_id": "JEE-M",
+      "sequence_order": 7,
+      "topic_name": "Thermodynamics",
+      "sub_topics": [
+        "Laws of Thermodynamics",
+        "Carnot Engine",
+        "KTG"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 3,
+      "difficulty": "intermediate"
+    },
+    {
+      "course_id": "JEE-M",
+      "sequence_order": 8,
+      "topic_name": "Electrostatics",
+      "sub_topics": [
+        "Coulomb's Law",
+        "Electric Field",
+        "Gauss's Law",
+        "Capacitors"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 4,
+      "difficulty": "advanced"
+    },
+    {
+      "course_id": "JEE-M",
+      "sequence_order": 9,
+      "topic_name": "Current Electricity",
+      "sub_topics": [
+        "Ohm's Law",
+        "Kirchhoff's Laws",
+        "Wheatstone Bridge"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 3,
+      "difficulty": "intermediate"
+    },
+    {
+      "course_id": "JEE-M",
+      "sequence_order": 10,
+      "topic_name": "Magnetism & Moving Charges",
+      "sub_topics": [
+        "Biot-Savart Law",
+        "Ampere's Law",
+        "Lorentz Force"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 3,
+      "difficulty": "advanced"
+    },
+    {
+      "course_id": "JEE-M",
+      "sequence_order": 11,
+      "topic_name": "Electromagnetic Induction",
+      "sub_topics": [
+        "Faraday's Law",
+        "Lenz's Law",
+        "Inductance",
+        "Transformers"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 3,
+      "difficulty": "advanced"
+    },
+    {
+      "course_id": "JEE-M",
+      "sequence_order": 12,
+      "topic_name": "Optics",
+      "sub_topics": [
+        "Ray Optics",
+        "Wave Optics",
+        "Interference",
+        "Diffraction"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 4,
+      "difficulty": "advanced"
+    },
+    {
+      "course_id": "JEE-M",
+      "sequence_order": 13,
+      "topic_name": "Modern Physics",
+      "sub_topics": [
+        "Photoelectric Effect",
+        "Bohr Model",
+        "Nuclear Physics",
+        "Radioactivity"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 3,
+      "difficulty": "advanced"
+    },
+    {
+      "course_id": "JEE-M",
+      "sequence_order": 14,
+      "topic_name": "Organic Chemistry - Basics",
+      "sub_topics": [
+        "IUPAC Nomenclature",
+        "Isomerism",
+        "Reaction Mechanisms (SN1, SN2, E1, E2)"
+      ],
+      "ncert_aligned": false,
+      "estimated_weeks": 4,
+      "difficulty": "intermediate"
+    },
+    {
+      "course_id": "JEE-M",
+      "sequence_order": 15,
+      "topic_name": "Hydrocarbons & Functional Groups",
+      "sub_topics": [
+        "Alkanes",
+        "Alkenes",
+        "Alkynes",
+        "Benzene",
+        "Alcohols",
+        "Aldehydes",
+        "Carboxylic Acids",
+        "Amines"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 5,
+      "difficulty": "advanced"
+    },
+    {
+      "course_id": "JEE-M",
+      "sequence_order": 16,
+      "topic_name": "Physical Chemistry",
+      "sub_topics": [
+        "Chemical Equilibrium",
+        "Electrochemistry",
+        "Chemical Kinetics",
+        "Solutions"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 5,
+      "difficulty": "advanced"
+    },
+    {
+      "course_id": "JEE-M",
+      "sequence_order": 17,
+      "topic_name": "Inorganic Chemistry",
+      "sub_topics": [
+        "Periodic Table trends",
+        "Chemical Bonding",
+        "s-block",
+        "p-block",
+        "d-block",
+        "Coordination Compounds"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 5,
+      "difficulty": "intermediate"
+    },
+    {
+      "course_id": "JEE-M",
+      "sequence_order": 18,
+      "topic_name": "Algebra",
+      "sub_topics": [
+        "Quadratic Equations",
+        "Sequences & Series",
+        "Complex Numbers",
+        "Binomial Theorem",
+        "Permutations & Combinations",
+        "Probability"
+      ],
+      "ncert_aligned": false,
+      "estimated_weeks": 6,
+      "difficulty": "intermediate"
+    },
+    {
+      "course_id": "JEE-M",
+      "sequence_order": 19,
+      "topic_name": "Coordinate Geometry",
+      "sub_topics": [
+        "Straight Lines",
+        "Circles",
+        "Parabola",
+        "Ellipse",
+        "Hyperbola"
+      ],
+      "ncert_aligned": false,
+      "estimated_weeks": 5,
+      "difficulty": "advanced"
+    },
+    {
+      "course_id": "JEE-M",
+      "sequence_order": 20,
+      "topic_name": "Calculus",
+      "sub_topics": [
+        "Limits",
+        "Differentiation",
+        "Application of Derivatives",
+        "Indefinite Integration",
+        "Definite Integration",
+        "Differential Equations"
+      ],
+      "ncert_aligned": false,
+      "estimated_weeks": 7,
+      "difficulty": "advanced"
+    },
+    {
+      "course_id": "JEE-M",
+      "sequence_order": 21,
+      "topic_name": "Trigonometry & Vectors",
+      "sub_topics": [
+        "Trigonometric functions",
+        "Inverse Trig",
+        "3D Geometry",
+        "Vector Algebra"
+      ],
+      "ncert_aligned": false,
+      "estimated_weeks": 4,
+      "difficulty": "intermediate"
+    },
+    {
+      "course_id": "NEET-2Y",
+      "sequence_order": 1,
+      "topic_name": "The Living World",
+      "sub_topics": [
+        "Taxonomy",
+        "Nomenclature",
+        "Classification"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 1,
+      "difficulty": "foundation"
+    },
+    {
+      "course_id": "NEET-2Y",
+      "sequence_order": 2,
+      "topic_name": "Biological Classification",
+      "sub_topics": [
+        "Monera",
+        "Protista",
+        "Fungi",
+        "Plantae",
+        "Animalia"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 2,
+      "difficulty": "foundation"
+    },
+    {
+      "course_id": "NEET-2Y",
+      "sequence_order": 3,
+      "topic_name": "Plant Kingdom",
+      "sub_topics": [
+        "Algae",
+        "Bryophytes",
+        "Pteridophytes",
+        "Gymnosperms",
+        "Angiosperms"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 2,
+      "difficulty": "intermediate"
+    },
+    {
+      "course_id": "NEET-2Y",
+      "sequence_order": 4,
+      "topic_name": "Animal Kingdom",
+      "sub_topics": [
+        "Phylum classification",
+        "Structural features",
+        "Key distinguishing characters"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 2,
+      "difficulty": "intermediate"
+    },
+    {
+      "course_id": "NEET-2Y",
+      "sequence_order": 5,
+      "topic_name": "Cell Structure & Function",
+      "sub_topics": [
+        "Prokaryotic cell",
+        "Eukaryotic cell",
+        "Cell organelles",
+        "Cell wall & membrane"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 2,
+      "difficulty": "foundation"
+    },
+    {
+      "course_id": "NEET-2Y",
+      "sequence_order": 6,
+      "topic_name": "Biomolecules",
+      "sub_topics": [
+        "Carbohydrates",
+        "Proteins",
+        "Lipids",
+        "Nucleic Acids",
+        "Enzymes"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 2,
+      "difficulty": "intermediate"
+    },
+    {
+      "course_id": "NEET-2Y",
+      "sequence_order": 7,
+      "topic_name": "Cell Division",
+      "sub_topics": [
+        "Mitosis",
+        "Meiosis",
+        "Cell Cycle"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 2,
+      "difficulty": "intermediate"
+    },
+    {
+      "course_id": "NEET-2Y",
+      "sequence_order": 8,
+      "topic_name": "Transport in Plants",
+      "sub_topics": [
+        "Osmosis",
+        "Plasmolysis",
+        "Transpiration",
+        "Phloem transport"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 2,
+      "difficulty": "intermediate"
+    },
+    {
+      "course_id": "NEET-2Y",
+      "sequence_order": 9,
+      "topic_name": "Photosynthesis",
+      "sub_topics": [
+        "Light reactions",
+        "Calvin cycle",
+        "C4 & CAM plants",
+        "Photorespiration"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 2,
+      "difficulty": "advanced"
+    },
+    {
+      "course_id": "NEET-2Y",
+      "sequence_order": 10,
+      "topic_name": "Respiration in Plants",
+      "sub_topics": [
+        "Glycolysis",
+        "Kreb's Cycle",
+        "ETC",
+        "Fermentation"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 2,
+      "difficulty": "advanced"
+    },
+    {
+      "course_id": "NEET-2Y",
+      "sequence_order": 11,
+      "topic_name": "Human Physiology (Digestion, Breathing, Circulation)",
+      "sub_topics": [
+        "Digestive system",
+        "Respiratory system",
+        "Circulatory system"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 4,
+      "difficulty": "intermediate"
+    },
+    {
+      "course_id": "NEET-2Y",
+      "sequence_order": 12,
+      "topic_name": "Human Physiology (Excretion, Locomotion, Neural, Endocrine)",
+      "sub_topics": [
+        "Kidney function",
+        "Muscle contraction",
+        "Neural control",
+        "Hormones"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 4,
+      "difficulty": "advanced"
+    },
+    {
+      "course_id": "NEET-2Y",
+      "sequence_order": 13,
+      "topic_name": "Reproduction",
+      "sub_topics": [
+        "Sexual reproduction in plants",
+        "Human reproduction",
+        "Reproductive health"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 3,
+      "difficulty": "intermediate"
+    },
+    {
+      "course_id": "NEET-2Y",
+      "sequence_order": 14,
+      "topic_name": "Genetics & Evolution",
+      "sub_topics": [
+        "Mendelian Genetics",
+        "Molecular basis of inheritance",
+        "DNA replication",
+        "Evolution & Natural Selection"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 5,
+      "difficulty": "advanced"
+    },
+    {
+      "course_id": "NEET-2Y",
+      "sequence_order": 15,
+      "topic_name": "Biology in Human Welfare & Biotechnology",
+      "sub_topics": [
+        "Microbes in human welfare",
+        "Biotechnology principles",
+        "Transgenic organisms",
+        "Bioethics"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 3,
+      "difficulty": "intermediate"
+    },
+    {
+      "course_id": "NEET-2Y",
+      "sequence_order": 16,
+      "topic_name": "Ecology",
+      "sub_topics": [
+        "Organisms and environment",
+        "Ecosystems",
+        "Biodiversity",
+        "Environmental issues"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 3,
+      "difficulty": "foundation"
+    },
+    {
+      "course_id": "C10-CBSE",
+      "sequence_order": 1,
+      "topic_name": "Real Numbers & Polynomials",
+      "sub_topics": [
+        "Euclid's algorithm",
+        "Irrational Numbers",
+        "Polynomial division"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 2,
+      "difficulty": "foundation"
+    },
+    {
+      "course_id": "C10-CBSE",
+      "sequence_order": 2,
+      "topic_name": "Linear Equations & Quadratics",
+      "sub_topics": [
+        "Pair of linear equations",
+        "Graphical method",
+        "Quadratic formula",
+        "Nature of roots"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 3,
+      "difficulty": "intermediate"
+    },
+    {
+      "course_id": "C10-CBSE",
+      "sequence_order": 3,
+      "topic_name": "Arithmetic Progressions & Triangles",
+      "sub_topics": [
+        "AP formula",
+        "Sum of AP",
+        "Similar triangles",
+        "Thales theorem"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 3,
+      "difficulty": "intermediate"
+    },
+    {
+      "course_id": "C10-CBSE",
+      "sequence_order": 4,
+      "topic_name": "Trigonometry",
+      "sub_topics": [
+        "Trig ratios",
+        "Trig identities",
+        "Heights and distances"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 3,
+      "difficulty": "intermediate"
+    },
+    {
+      "course_id": "C10-CBSE",
+      "sequence_order": 5,
+      "topic_name": "Circles, Constructions & Mensuration",
+      "sub_topics": [
+        "Tangents to circle",
+        "Areas",
+        "Surface areas and volumes"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 3,
+      "difficulty": "intermediate"
+    },
+    {
+      "course_id": "C10-CBSE",
+      "sequence_order": 6,
+      "topic_name": "Statistics & Probability",
+      "sub_topics": [
+        "Mean/Median/Mode of grouped data",
+        "Probability basics"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 2,
+      "difficulty": "foundation"
+    },
+    {
+      "course_id": "C10-CBSE",
+      "sequence_order": 7,
+      "topic_name": "Chemical Reactions & Acids/Bases",
+      "sub_topics": [
+        "Types of reactions",
+        "Balancing equations",
+        "Acid-Base-Salt properties"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 3,
+      "difficulty": "foundation"
+    },
+    {
+      "course_id": "C10-CBSE",
+      "sequence_order": 8,
+      "topic_name": "Metals, Non-metals & Carbon Compounds",
+      "sub_topics": [
+        "Reactivity series",
+        "Ionic compounds",
+        "Carbon chemistry basics"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 3,
+      "difficulty": "intermediate"
+    },
+    {
+      "course_id": "C10-CBSE",
+      "sequence_order": 9,
+      "topic_name": "Life Processes & Control in Living Organisms",
+      "sub_topics": [
+        "Nutrition",
+        "Respiration",
+        "Excretion",
+        "Nervous system"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 4,
+      "difficulty": "intermediate"
+    },
+    {
+      "course_id": "C10-CBSE",
+      "sequence_order": 10,
+      "topic_name": "Heredity, Evolution & Environment",
+      "sub_topics": [
+        "Mendel's laws",
+        "Acquired vs inherited traits",
+        "Food chains",
+        "Ecosystems"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 3,
+      "difficulty": "foundation"
+    },
+    {
+      "course_id": "C10-CBSE",
+      "sequence_order": 11,
+      "topic_name": "Light, Electricity & Magnetic Effects",
+      "sub_topics": [
+        "Reflection/Refraction",
+        "Human eye",
+        "Ohm's Law circuits",
+        "Magnetic field"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 4,
+      "difficulty": "intermediate"
+    },
+    {
+      "course_id": "C10-CBSE",
+      "sequence_order": 12,
+      "topic_name": "Board Revision & Mock Tests",
+      "sub_topics": [
+        "Full syllabus revision",
+        "5 mock boards",
+        "Answer writing workshops",
+        "Previous year paper analysis"
+      ],
+      "ncert_aligned": true,
+      "estimated_weeks": 6,
+      "difficulty": "advanced"
+    }
   ],
-
   "branches": [
     {
       "id": "B-PUNE-HQ",
@@ -485,7 +1509,11 @@
       "area": "Kothrud",
       "address": "Plot 14, Kothrud Industrial Estate, Near Vanaz Factory, Kothrud, Pune - 411038",
       "contact": "+91-20-2545-6789",
-      "modes_available": ["offline", "online", "hybrid"],
+      "modes_available": [
+        "offline",
+        "online",
+        "hybrid"
+      ],
       "facilities": [
         "6 fully air-conditioned classrooms (capacity 30-40 each)",
         "Dedicated Biology lab with microscopes for NEET students",
@@ -496,7 +1524,20 @@
         "Recording studio for online lecture delivery",
         "Cafeteria and study lounge"
       ],
-      "available_courses": ["C8-CBSE", "C8-ICSE", "C9-CBSE", "C9-ICSE", "C10-CBSE", "C10-ICSE", "JEE-M", "JEE-A", "JEE-D", "NEET-2Y", "NEET-1Y", "NEET-R"]
+      "available_courses": [
+        "C8-CBSE",
+        "C8-ICSE",
+        "C9-CBSE",
+        "C9-ICSE",
+        "C10-CBSE",
+        "C10-ICSE",
+        "JEE-M",
+        "JEE-A",
+        "JEE-D",
+        "NEET-2Y",
+        "NEET-1Y",
+        "NEET-R"
+      ]
     },
     {
       "id": "B-PUNE-WAKAD",
@@ -505,7 +1546,10 @@
       "area": "Wakad",
       "address": "Office 202, Laxmi Plaza, Wakad Road, Near Wakad Chowk, Pune - 411057",
       "contact": "+91-20-2756-1234",
-      "modes_available": ["offline", "hybrid"],
+      "modes_available": [
+        "offline",
+        "hybrid"
+      ],
       "facilities": [
         "4 classrooms (capacity 20-25 each)",
         "Digital smart boards",
@@ -513,7 +1557,14 @@
         "Library with essential reference books",
         "No Biology lab (NEET lab only at HQ)"
       ],
-      "available_courses": ["C8-CBSE", "C8-ICSE", "C9-CBSE", "C10-CBSE", "C10-ICSE", "JEE-M"]
+      "available_courses": [
+        "C8-CBSE",
+        "C8-ICSE",
+        "C9-CBSE",
+        "C10-CBSE",
+        "C10-ICSE",
+        "JEE-M"
+      ]
     },
     {
       "id": "B-MUMBAI",
@@ -522,7 +1573,9 @@
       "area": "Andheri",
       "address": "Unit 8, Oberoi Complex, Andheri East, Near WEH Metro Station, Mumbai - 400069",
       "contact": "+91-22-6789-0123",
-      "modes_available": ["hybrid"],
+      "modes_available": [
+        "hybrid"
+      ],
       "facilities": [
         "2 hybrid classrooms with dual-mode setup",
         "Weekly offline sessions (Saturday/Sunday)",
@@ -530,7 +1583,11 @@
         "Doubt sessions online Monday-Friday",
         "No dedicated lab facility"
       ],
-      "available_courses": ["JEE-M", "NEET-1Y", "C10-CBSE"]
+      "available_courses": [
+        "JEE-M",
+        "NEET-1Y",
+        "C10-CBSE"
+      ]
     },
     {
       "id": "B-ONLINE",
@@ -539,7 +1596,9 @@
       "area": "Pan-India",
       "address": "Online — accessible from anywhere in India",
       "contact": "+91-800-APEX-LEARN (toll free)",
-      "modes_available": ["online"],
+      "modes_available": [
+        "online"
+      ],
       "facilities": [
         "Live interactive classes on Apex platform",
         "Recorded lectures available for replay (180-day access)",
@@ -550,10 +1609,455 @@
         "WhatsApp group support per batch",
         "All courses available online"
       ],
-      "available_courses": ["C8-CBSE", "C8-ICSE", "C9-CBSE", "C9-ICSE", "C10-CBSE", "C10-ICSE", "JEE-M", "JEE-A", "JEE-D", "NEET-2Y", "NEET-1Y", "NEET-R"]
+      "available_courses": [
+        "C8-CBSE",
+        "C8-ICSE",
+        "C9-CBSE",
+        "C9-ICSE",
+        "C10-CBSE",
+        "C10-ICSE",
+        "JEE-M",
+        "JEE-A",
+        "JEE-D",
+        "NEET-2Y",
+        "NEET-1Y",
+        "NEET-R"
+      ]
+    },
+    {
+      "id": "B-DELHI-DWK",
+      "name": "Apex Coaching Institute — Delhi Dwarka",
+      "city": "Delhi",
+      "area": "Dwarka",
+      "address": "Plot 8, Sector 10 Commercial Complex, Dwarka, New Delhi - 110075",
+      "contact": "+91-11-4567-8901",
+      "modes_available": [
+        "offline",
+        "hybrid"
+      ],
+      "facilities": [
+        "5 air-conditioned classrooms",
+        "Digital smart boards",
+        "Doubt counter 6 days/week",
+        "Library with JEE/NEET reference books",
+        "Parent portal access"
+      ],
+      "available_courses": [
+        "JEE-M",
+        "JEE-A",
+        "JEE-D",
+        "NEET-2Y",
+        "NEET-1Y",
+        "NEET-R",
+        "C10-CBSE"
+      ]
+    },
+    {
+      "id": "B-DELHI-NTR",
+      "name": "Apex Coaching Institute — Delhi Nehru Place",
+      "city": "Delhi",
+      "area": "Nehru Place",
+      "address": "Unit 14, Himalaya House, Nehru Place, New Delhi - 110019",
+      "contact": "+91-11-4678-9012",
+      "modes_available": [
+        "offline",
+        "hybrid"
+      ],
+      "facilities": [
+        "4 classrooms (capacity 25 each)",
+        "Smart boards",
+        "Weekly doubt sessions",
+        "Study material available"
+      ],
+      "available_courses": [
+        "JEE-M",
+        "JEE-A",
+        "NEET-2Y",
+        "NEET-1Y"
+      ]
+    },
+    {
+      "id": "B-NOIDA",
+      "name": "Apex Coaching Institute — Noida Sector 62",
+      "city": "Noida",
+      "area": "Sector 62",
+      "address": "B-201, Wave Silver Tower, Sector 62, Noida - 201301",
+      "contact": "+91-120-4567-890",
+      "modes_available": [
+        "offline",
+        "hybrid"
+      ],
+      "facilities": [
+        "4 classrooms",
+        "Smart boards",
+        "Doubt sessions Mon-Sat",
+        "Online backup for all offline lectures"
+      ],
+      "available_courses": [
+        "JEE-M",
+        "NEET-2Y",
+        "NEET-1Y",
+        "C10-CBSE"
+      ]
+    },
+    {
+      "id": "B-GGN",
+      "name": "Apex Coaching Institute — Gurugram Cyber City",
+      "city": "Gurugram",
+      "area": "Cyber City",
+      "address": "Level 4, Regus Centre, DLF Cyber City Phase 2, Gurugram - 122002",
+      "contact": "+91-124-4567-891",
+      "modes_available": [
+        "offline",
+        "hybrid"
+      ],
+      "facilities": [
+        "3 modern classrooms",
+        "Video-enabled smart boards",
+        "Doubt sessions weekdays",
+        "Corporate-style study lounge"
+      ],
+      "available_courses": [
+        "JEE-M",
+        "JEE-A",
+        "NEET-1Y"
+      ]
+    },
+    {
+      "id": "B-BLR-KRM",
+      "name": "Apex Coaching Institute — Bangalore Koramangala",
+      "city": "Bangalore",
+      "area": "Koramangala",
+      "address": "No. 47, 5th Block, Koramangala, Bengaluru - 560095",
+      "contact": "+91-80-4567-8912",
+      "modes_available": [
+        "offline",
+        "hybrid"
+      ],
+      "facilities": [
+        "5 classrooms (capacity 30 each)",
+        "Biology lab for NEET students",
+        "Digital smart boards",
+        "Doubt counter 6 days/week",
+        "Parent dashboard"
+      ],
+      "available_courses": [
+        "JEE-M",
+        "JEE-A",
+        "NEET-2Y",
+        "NEET-1Y"
+      ]
+    },
+    {
+      "id": "B-BLR-WHT",
+      "name": "Apex Coaching Institute — Bangalore Whitefield",
+      "city": "Bangalore",
+      "area": "Whitefield",
+      "address": "204, Prestige Shantiniketan, ITPL Road, Whitefield, Bengaluru - 560066",
+      "contact": "+91-80-4678-9013",
+      "modes_available": [
+        "offline",
+        "hybrid"
+      ],
+      "facilities": [
+        "3 classrooms",
+        "Smart boards",
+        "Doubt sessions Sat-Sun",
+        "Online support on weekdays"
+      ],
+      "available_courses": [
+        "JEE-M",
+        "NEET-1Y",
+        "C10-CBSE"
+      ]
+    },
+    {
+      "id": "B-HYD",
+      "name": "Apex Coaching Institute — Hyderabad Gachibowli",
+      "city": "Hyderabad",
+      "area": "Gachibowli",
+      "address": "Plot 11, Mindspace IT Park Road, Gachibowli, Hyderabad - 500032",
+      "contact": "+91-40-4567-8913",
+      "modes_available": [
+        "offline",
+        "hybrid"
+      ],
+      "facilities": [
+        "5 classrooms",
+        "Biology lab",
+        "Smart boards",
+        "Doubt counter 6 days/week",
+        "Study material hub"
+      ],
+      "available_courses": [
+        "JEE-M",
+        "JEE-A",
+        "NEET-2Y",
+        "NEET-1Y"
+      ]
+    },
+    {
+      "id": "B-CHN",
+      "name": "Apex Coaching Institute — Chennai Anna Nagar",
+      "city": "Chennai",
+      "area": "Anna Nagar",
+      "address": "No. 22, 2nd Avenue, Anna Nagar East, Chennai - 600102",
+      "contact": "+91-44-4567-8914",
+      "modes_available": [
+        "offline",
+        "hybrid"
+      ],
+      "facilities": [
+        "4 classrooms",
+        "Biology lab",
+        "Smart boards",
+        "Doubt sessions Mon-Sat",
+        "NEET-specific library"
+      ],
+      "available_courses": [
+        "JEE-M",
+        "NEET-2Y",
+        "NEET-1Y",
+        "C10-CBSE"
+      ]
+    },
+    {
+      "id": "B-KOL",
+      "name": "Apex Coaching Institute — Kolkata Salt Lake",
+      "city": "Kolkata",
+      "area": "Salt Lake",
+      "address": "CF-5, Salt Lake Sector 1, Near City Centre, Kolkata - 700064",
+      "contact": "+91-33-4567-8915",
+      "modes_available": [
+        "offline",
+        "hybrid"
+      ],
+      "facilities": [
+        "4 classrooms (capacity 30 each)",
+        "Smart boards",
+        "Doubt sessions weekdays",
+        "Monthly parent-teacher meetings"
+      ],
+      "available_courses": [
+        "JEE-M",
+        "JEE-A",
+        "NEET-2Y"
+      ]
+    },
+    {
+      "id": "B-CDG",
+      "name": "Apex Coaching Institute — Chandigarh Sector 17",
+      "city": "Chandigarh",
+      "area": "Sector 17",
+      "address": "SCO 145-146, Sector 17-C, Chandigarh - 160017",
+      "contact": "+91-172-4567-891",
+      "modes_available": [
+        "offline",
+        "hybrid"
+      ],
+      "facilities": [
+        "3 classrooms",
+        "Smart boards",
+        "Doubt sessions 5 days/week",
+        "Library with competitive exam books"
+      ],
+      "available_courses": [
+        "JEE-M",
+        "NEET-1Y",
+        "C10-CBSE"
+      ]
+    },
+    {
+      "id": "B-JAI",
+      "name": "Apex Coaching Institute — Jaipur Malviya Nagar",
+      "city": "Jaipur",
+      "area": "Malviya Nagar",
+      "address": "Plot 33, Shipra Path, Malviya Nagar, Jaipur - 302017",
+      "contact": "+91-141-4567-892",
+      "modes_available": [
+        "offline",
+        "hybrid"
+      ],
+      "facilities": [
+        "4 classrooms",
+        "Smart boards",
+        "Doubt counter Mon-Sat",
+        "Study lounge"
+      ],
+      "available_courses": [
+        "JEE-M",
+        "NEET-1Y",
+        "C10-CBSE"
+      ]
+    },
+    {
+      "id": "B-LKO",
+      "name": "Apex Coaching Institute — Lucknow Gomti Nagar",
+      "city": "Lucknow",
+      "area": "Gomti Nagar",
+      "address": "6/1 Vibhav Khand, Gomti Nagar, Lucknow - 226010",
+      "contact": "+91-522-4567-893",
+      "modes_available": [
+        "offline",
+        "hybrid"
+      ],
+      "facilities": [
+        "4 classrooms",
+        "Biology lab",
+        "Smart boards",
+        "Doubt sessions 6 days/week"
+      ],
+      "available_courses": [
+        "JEE-M",
+        "NEET-2Y",
+        "NEET-1Y"
+      ]
+    },
+    {
+      "id": "B-AMD",
+      "name": "Apex Coaching Institute — Ahmedabad SG Highway",
+      "city": "Ahmedabad",
+      "area": "SG Highway",
+      "address": "B-404, Mondeal Heights, SG Highway, Ahmedabad - 380054",
+      "contact": "+91-79-4567-8916",
+      "modes_available": [
+        "offline",
+        "hybrid"
+      ],
+      "facilities": [
+        "4 classrooms",
+        "Smart boards",
+        "Doubt sessions Mon-Sat",
+        "Library"
+      ],
+      "available_courses": [
+        "JEE-M",
+        "JEE-A",
+        "NEET-2Y"
+      ]
+    },
+    {
+      "id": "B-IDR",
+      "name": "Apex Coaching Institute — Indore Vijay Nagar",
+      "city": "Indore",
+      "area": "Vijay Nagar",
+      "address": "A/3 Scheme 54, Vijay Nagar, Indore - 452010",
+      "contact": "+91-731-4567-894",
+      "modes_available": [
+        "offline",
+        "hybrid"
+      ],
+      "facilities": [
+        "3 classrooms",
+        "Smart boards",
+        "Doubt sessions weekdays",
+        "Weekend workshops"
+      ],
+      "available_courses": [
+        "JEE-M",
+        "NEET-1Y"
+      ]
+    },
+    {
+      "id": "B-BPL",
+      "name": "Apex Coaching Institute — Bhopal MP Nagar",
+      "city": "Bhopal",
+      "area": "MP Nagar",
+      "address": "Zone 2, Plot 45, MP Nagar, Bhopal - 462011",
+      "contact": "+91-755-4567-895",
+      "modes_available": [
+        "offline",
+        "hybrid"
+      ],
+      "facilities": [
+        "3 classrooms",
+        "Smart boards",
+        "Doubt sessions 5 days/week",
+        "Study material available"
+      ],
+      "available_courses": [
+        "JEE-M",
+        "NEET-1Y",
+        "C10-CBSE"
+      ]
+    },
+    {
+      "id": "B-PAT",
+      "name": "Apex Coaching Institute — Patna Boring Road",
+      "city": "Patna",
+      "area": "Boring Road",
+      "address": "D/47 Boring Canal Road, Patna - 800001",
+      "contact": "+91-612-4567-896",
+      "modes_available": [
+        "offline",
+        "hybrid"
+      ],
+      "facilities": [
+        "4 classrooms (30 seats each)",
+        "Biology lab",
+        "Smart boards",
+        "Doubt counter daily",
+        "JEE/NEET focused library"
+      ],
+      "available_courses": [
+        "JEE-M",
+        "NEET-2Y",
+        "NEET-1Y"
+      ]
+    },
+    {
+      "id": "B-KOT",
+      "name": "Apex Coaching Institute — Kota Vigyan Nagar",
+      "city": "Kota",
+      "area": "Vigyan Nagar",
+      "address": "B-37, Vigyan Nagar, Near Allen Career Institute Road, Kota - 324005",
+      "contact": "+91-744-4567-897",
+      "modes_available": [
+        "offline"
+      ],
+      "facilities": [
+        "6 classrooms (capacity 40 each)",
+        "Full Biology and Physics labs",
+        "Smart boards all rooms",
+        "Doubt counter 7 days/week",
+        "Hostel tie-up available",
+        "Mental wellness cell",
+        "Alumni mentoring program",
+        "Full-length test hall (200 seats)"
+      ],
+      "available_courses": [
+        "JEE-M",
+        "JEE-A",
+        "JEE-D",
+        "NEET-2Y",
+        "NEET-1Y",
+        "NEET-R"
+      ]
+    },
+    {
+      "id": "B-NGP",
+      "name": "Apex Coaching Institute — Nagpur Dharampeth",
+      "city": "Nagpur",
+      "area": "Dharampeth",
+      "address": "14, WHC Road, Dharampeth, Nagpur - 440010",
+      "contact": "+91-712-4567-898",
+      "modes_available": [
+        "offline",
+        "hybrid"
+      ],
+      "facilities": [
+        "3 classrooms",
+        "Smart boards",
+        "Doubt sessions Mon-Sat",
+        "Library"
+      ],
+      "available_courses": [
+        "JEE-M",
+        "NEET-1Y",
+        "C10-CBSE"
+      ]
     }
   ],
-
   "scholarships": [
     {
       "id": "SCH-001",
@@ -601,35 +2105,488 @@
       "description": "Flat Rs 10,000 off for JEE or NEET dropper students. We understand repeating is hard — we want to make it easier.",
       "discount_flat": 10000,
       "eligibility": "Students who appeared for JEE or NEET in the previous academic year",
-      "applicable_courses": ["JEE-D", "NEET-R"],
+      "applicable_courses": [
+        "JEE-D",
+        "NEET-R"
+      ],
       "deadline": "Available until batch is 75% full",
       "installment_still_available": true
     }
   ],
-
   "demo_slots": [
-    {"id": "DS001", "course_id": "JEE-M", "slot_date": "2025-04-19", "slot_time": "10:00 AM", "duration_hours": 2, "mode": "online", "meeting_link": "https://apexcoaching.in/demo/ds001", "branch_id": "B-ONLINE", "is_booked": false, "topic": "Introduction to JEE Mains + Sample Physics lecture"},
-    {"id": "DS002", "course_id": "JEE-M", "slot_date": "2025-04-20", "slot_time": "10:00 AM", "duration_hours": 2, "mode": "offline", "meeting_link": null, "branch_id": "B-PUNE-HQ", "is_booked": false, "topic": "Introduction to JEE Mains + Sample Maths lecture"},
-    {"id": "DS003", "course_id": "NEET-2Y", "slot_date": "2025-04-19", "slot_time": "11:00 AM", "duration_hours": 2, "mode": "online", "meeting_link": "https://apexcoaching.in/demo/ds003", "branch_id": "B-ONLINE", "is_booked": false, "topic": "NEET Biology — Cell Structure demo class"},
-    {"id": "DS004", "course_id": "NEET-2Y", "slot_date": "2025-04-20", "slot_time": "11:00 AM", "duration_hours": 2, "mode": "offline", "meeting_link": null, "branch_id": "B-PUNE-HQ", "is_booked": false, "topic": "NEET Biology — Cell Structure demo class"},
-    {"id": "DS005", "course_id": "C10-CBSE", "slot_date": "2025-04-20", "slot_time": "9:00 AM", "duration_hours": 2, "mode": "offline", "meeting_link": null, "branch_id": "B-PUNE-WAKAD", "is_booked": false, "topic": "Class 10 Board Excellence — Maths demo lecture"},
-    {"id": "DS006", "course_id": "JEE-A", "slot_date": "2025-04-26", "slot_time": "10:00 AM", "duration_hours": 2, "mode": "online", "meeting_link": "https://apexcoaching.in/demo/ds006", "branch_id": "B-ONLINE", "is_booked": false, "topic": "JEE Advanced — Problem Solving session on Mechanics"},
-    {"id": "DS007", "course_id": "NEET-1Y", "slot_date": "2025-04-26", "slot_time": "11:00 AM", "duration_hours": 2, "mode": "offline", "meeting_link": null, "branch_id": "B-PUNE-HQ", "is_booked": false, "topic": "NEET 1-Year — Genetics and Molecular Biology demo"},
-    {"id": "DS008", "course_id": "JEE-D", "slot_date": "2025-04-27", "slot_time": "8:00 AM", "duration_hours": 2, "mode": "offline", "meeting_link": null, "branch_id": "B-PUNE-HQ", "is_booked": false, "topic": "JEE Dropper — Diagnostic assessment + counselling session"},
-    {"id": "DS009", "course_id": "NEET-R", "slot_date": "2025-04-27", "slot_time": "10:00 AM", "duration_hours": 2, "mode": "hybrid", "meeting_link": "https://apexcoaching.in/demo/ds009", "branch_id": "B-PUNE-HQ", "is_booked": false, "topic": "NEET Repeater — Diagnostic + revision strategy session"},
-    {"id": "DS010", "course_id": "JEE-M", "slot_date": "2025-05-03", "slot_time": "10:00 AM", "duration_hours": 2, "mode": "online", "meeting_link": "https://apexcoaching.in/demo/ds010", "branch_id": "B-ONLINE", "is_booked": false, "topic": "JEE Mains — Chemistry Organic mechanisms demo"},
-    {"id": "DS011", "course_id": "C10-CBSE", "slot_date": "2025-05-04", "slot_time": "9:00 AM", "duration_hours": 2, "mode": "online", "meeting_link": "https://apexcoaching.in/demo/ds011", "branch_id": "B-ONLINE", "is_booked": false, "topic": "Class 10 CBSE — Science demo: Chemical reactions"},
-    {"id": "DS012", "course_id": "NEET-2Y", "slot_date": "2025-05-04", "slot_time": "11:00 AM", "duration_hours": 2, "mode": "online", "meeting_link": "https://apexcoaching.in/demo/ds012", "branch_id": "B-ONLINE", "is_booked": false, "topic": "NEET 2-Year — Ecology and Environment demo"}
+    {
+      "id": "DS001",
+      "course_id": "JEE-M",
+      "slot_date": "2025-04-19",
+      "slot_time": "10:00 AM",
+      "duration_hours": 2,
+      "mode": "online",
+      "meeting_link": "https://apexcoaching.in/demo/ds001",
+      "branch_id": "B-ONLINE",
+      "is_booked": false,
+      "topic": "Introduction to JEE Mains + Sample Physics lecture"
+    },
+    {
+      "id": "DS002",
+      "course_id": "JEE-M",
+      "slot_date": "2025-04-20",
+      "slot_time": "10:00 AM",
+      "duration_hours": 2,
+      "mode": "offline",
+      "meeting_link": null,
+      "branch_id": "B-PUNE-HQ",
+      "is_booked": false,
+      "topic": "Introduction to JEE Mains + Sample Maths lecture"
+    },
+    {
+      "id": "DS003",
+      "course_id": "NEET-2Y",
+      "slot_date": "2025-04-19",
+      "slot_time": "11:00 AM",
+      "duration_hours": 2,
+      "mode": "online",
+      "meeting_link": "https://apexcoaching.in/demo/ds003",
+      "branch_id": "B-ONLINE",
+      "is_booked": false,
+      "topic": "NEET Biology — Cell Structure demo class"
+    },
+    {
+      "id": "DS004",
+      "course_id": "NEET-2Y",
+      "slot_date": "2025-04-20",
+      "slot_time": "11:00 AM",
+      "duration_hours": 2,
+      "mode": "offline",
+      "meeting_link": null,
+      "branch_id": "B-PUNE-HQ",
+      "is_booked": false,
+      "topic": "NEET Biology — Cell Structure demo class"
+    },
+    {
+      "id": "DS005",
+      "course_id": "C10-CBSE",
+      "slot_date": "2025-04-20",
+      "slot_time": "9:00 AM",
+      "duration_hours": 2,
+      "mode": "offline",
+      "meeting_link": null,
+      "branch_id": "B-PUNE-WAKAD",
+      "is_booked": false,
+      "topic": "Class 10 Board Excellence — Maths demo lecture"
+    },
+    {
+      "id": "DS006",
+      "course_id": "JEE-A",
+      "slot_date": "2025-04-26",
+      "slot_time": "10:00 AM",
+      "duration_hours": 2,
+      "mode": "online",
+      "meeting_link": "https://apexcoaching.in/demo/ds006",
+      "branch_id": "B-ONLINE",
+      "is_booked": false,
+      "topic": "JEE Advanced — Problem Solving session on Mechanics"
+    },
+    {
+      "id": "DS007",
+      "course_id": "NEET-1Y",
+      "slot_date": "2025-04-26",
+      "slot_time": "11:00 AM",
+      "duration_hours": 2,
+      "mode": "offline",
+      "meeting_link": null,
+      "branch_id": "B-PUNE-HQ",
+      "is_booked": false,
+      "topic": "NEET 1-Year — Genetics and Molecular Biology demo"
+    },
+    {
+      "id": "DS008",
+      "course_id": "JEE-D",
+      "slot_date": "2025-04-27",
+      "slot_time": "8:00 AM",
+      "duration_hours": 2,
+      "mode": "offline",
+      "meeting_link": null,
+      "branch_id": "B-PUNE-HQ",
+      "is_booked": false,
+      "topic": "JEE Dropper — Diagnostic assessment + counselling session"
+    },
+    {
+      "id": "DS009",
+      "course_id": "NEET-R",
+      "slot_date": "2025-04-27",
+      "slot_time": "10:00 AM",
+      "duration_hours": 2,
+      "mode": "hybrid",
+      "meeting_link": "https://apexcoaching.in/demo/ds009",
+      "branch_id": "B-PUNE-HQ",
+      "is_booked": false,
+      "topic": "NEET Repeater — Diagnostic + revision strategy session"
+    },
+    {
+      "id": "DS010",
+      "course_id": "JEE-M",
+      "slot_date": "2025-05-03",
+      "slot_time": "10:00 AM",
+      "duration_hours": 2,
+      "mode": "online",
+      "meeting_link": "https://apexcoaching.in/demo/ds010",
+      "branch_id": "B-ONLINE",
+      "is_booked": false,
+      "topic": "JEE Mains — Chemistry Organic mechanisms demo"
+    },
+    {
+      "id": "DS011",
+      "course_id": "C10-CBSE",
+      "slot_date": "2025-05-04",
+      "slot_time": "9:00 AM",
+      "duration_hours": 2,
+      "mode": "online",
+      "meeting_link": "https://apexcoaching.in/demo/ds011",
+      "branch_id": "B-ONLINE",
+      "is_booked": false,
+      "topic": "Class 10 CBSE — Science demo: Chemical reactions"
+    },
+    {
+      "id": "DS012",
+      "course_id": "NEET-2Y",
+      "slot_date": "2025-05-04",
+      "slot_time": "11:00 AM",
+      "duration_hours": 2,
+      "mode": "online",
+      "meeting_link": "https://apexcoaching.in/demo/ds012",
+      "branch_id": "B-ONLINE",
+      "is_booked": false,
+      "topic": "NEET 2-Year — Ecology and Environment demo"
+    }
   ],
-
   "outcomes": [
-    {"course_id": "JEE-M", "avg_score_improvement": "38 marks improvement in JEE Mains over 2 years (based on mock test data)", "selection_rate": "68% of students qualify JEE Mains cutoff", "past_rankers": "12 students in top 5000 JEE Mains rank in 2024", "note": "Past performance is indicative, not guaranteed."},
-    {"course_id": "JEE-A", "avg_score_improvement": "Significant improvement in Advanced-level problem solving scores (internal assessment data)", "selection_rate": "41% of students qualify JEE Advanced", "past_rankers": "3 students in top 1000 JEE Advanced in 2023", "note": "Past performance is indicative, not guaranteed."},
-    {"course_id": "JEE-D", "avg_score_improvement": "Average 45-mark improvement vs previous year JEE Mains attempt", "selection_rate": "74% improve their JEE rank on second attempt", "past_rankers": "5 IIT selections from dropper batch in 2023-24", "note": "Past performance is indicative, not guaranteed."},
-    {"course_id": "NEET-2Y", "avg_score_improvement": "Average 97-mark improvement from mock test baseline to NEET attempt", "selection_rate": "72% of students clear NEET cutoff", "past_rankers": "2 students in AIIMS Delhi (2023, 2024). 18 students in state government medical colleges.", "note": "Past performance is indicative, not guaranteed."},
-    {"course_id": "NEET-1Y", "avg_score_improvement": "Average 71-mark improvement in one year of preparation", "selection_rate": "58% of students clear NEET cutoff", "past_rankers": "8 students in government medical colleges in 2024", "note": "Past performance is indicative, not guaranteed."},
-    {"course_id": "NEET-R", "avg_score_improvement": "Average 82-mark improvement from previous NEET score", "selection_rate": "61% of repeaters clear cutoff after this course", "past_rankers": "11 repeaters cleared NEET and joined MBBS in 2024", "note": "Past performance is indicative, not guaranteed."},
-    {"course_id": "C10-CBSE", "avg_score_improvement": "Average student scores 87% in CBSE Class 10 boards", "selection_rate": "96% students score above 75%", "past_rankers": "3 students scored 99% in 2024 CBSE boards", "note": "Past performance is indicative, not guaranteed."},
-    {"course_id": "C10-ICSE", "avg_score_improvement": "Average student scores 89% in ICSE Class 10 boards", "selection_rate": "94% students score above 80% in ICSE", "past_rankers": "1 student scored 98.6% aggregate in 2024 ICSE boards", "note": "Past performance is indicative, not guaranteed."}
+    {
+      "course_id": "JEE-M",
+      "avg_score_improvement": "38 marks improvement in JEE Mains over 2 years (based on mock test data)",
+      "selection_rate": "68% of students qualify JEE Mains cutoff",
+      "past_rankers": "12 students in top 5000 JEE Mains rank in 2024",
+      "note": "Past performance is indicative, not guaranteed."
+    },
+    {
+      "course_id": "JEE-A",
+      "avg_score_improvement": "Significant improvement in Advanced-level problem solving scores (internal assessment data)",
+      "selection_rate": "41% of students qualify JEE Advanced",
+      "past_rankers": "3 students in top 1000 JEE Advanced in 2023",
+      "note": "Past performance is indicative, not guaranteed."
+    },
+    {
+      "course_id": "JEE-D",
+      "avg_score_improvement": "Average 45-mark improvement vs previous year JEE Mains attempt",
+      "selection_rate": "74% improve their JEE rank on second attempt",
+      "past_rankers": "5 IIT selections from dropper batch in 2023-24",
+      "note": "Past performance is indicative, not guaranteed."
+    },
+    {
+      "course_id": "NEET-2Y",
+      "avg_score_improvement": "Average 97-mark improvement from mock test baseline to NEET attempt",
+      "selection_rate": "72% of students clear NEET cutoff",
+      "past_rankers": "2 students in AIIMS Delhi (2023, 2024). 18 students in state government medical colleges.",
+      "note": "Past performance is indicative, not guaranteed."
+    },
+    {
+      "course_id": "NEET-1Y",
+      "avg_score_improvement": "Average 71-mark improvement in one year of preparation",
+      "selection_rate": "58% of students clear NEET cutoff",
+      "past_rankers": "8 students in government medical colleges in 2024",
+      "note": "Past performance is indicative, not guaranteed."
+    },
+    {
+      "course_id": "NEET-R",
+      "avg_score_improvement": "Average 82-mark improvement from previous NEET score",
+      "selection_rate": "61% of repeaters clear cutoff after this course",
+      "past_rankers": "11 repeaters cleared NEET and joined MBBS in 2024",
+      "note": "Past performance is indicative, not guaranteed."
+    },
+    {
+      "course_id": "C10-CBSE",
+      "avg_score_improvement": "Average student scores 87% in CBSE Class 10 boards",
+      "selection_rate": "96% students score above 75%",
+      "past_rankers": "3 students scored 99% in 2024 CBSE boards",
+      "note": "Past performance is indicative, not guaranteed."
+    },
+    {
+      "course_id": "C10-ICSE",
+      "avg_score_improvement": "Average student scores 89% in ICSE Class 10 boards",
+      "selection_rate": "94% students score above 80% in ICSE",
+      "past_rankers": "1 student scored 98.6% aggregate in 2024 ICSE boards",
+      "note": "Past performance is indicative, not guaranteed."
+    }
+  ],
+  "batch_statistics": [
+    {
+      "course_id": "JEE-M",
+      "cohort_label": "JEE Mains 2022-23 Batch",
+      "cohort_year": 2023,
+      "total_enrolled": 145,
+      "avg_score_improvement": "41 marks",
+      "selection_rate": "71%",
+      "qualified_count": 103,
+      "topper_name": "Aryan",
+      "topper_score": "99.4 percentile",
+      "colleges_joined": [
+        "IIT Bombay",
+        "IIT Delhi",
+        "IIT Madras",
+        "NIT Pune",
+        "BITS Pilani"
+      ],
+      "notable_achievement": "3 students in top 1000 All India Rank",
+      "honest_disclaimer": "Past performance is indicative and not a guarantee of results."
+    },
+    {
+      "course_id": "JEE-M",
+      "cohort_label": "JEE Mains 2023-24 Batch",
+      "cohort_year": 2024,
+      "total_enrolled": 162,
+      "avg_score_improvement": "44 marks",
+      "selection_rate": "68%",
+      "qualified_count": 110,
+      "topper_name": "Shreya",
+      "topper_score": "99.7 percentile",
+      "colleges_joined": [
+        "IIT Bombay",
+        "IIT Roorkee",
+        "IIT Kharagpur",
+        "NIT Trichy",
+        "NIT Warangal",
+        "BITS Goa"
+      ],
+      "notable_achievement": "Shreya ranked AIR 847 in JEE Advanced 2024",
+      "honest_disclaimer": "Past performance is indicative and not a guarantee of results."
+    },
+    {
+      "course_id": "JEE-M",
+      "cohort_label": "JEE Mains 2024-25 Batch (Current)",
+      "cohort_year": 2025,
+      "total_enrolled": 178,
+      "avg_score_improvement": "In progress",
+      "selection_rate": "Results awaited",
+      "qualified_count": 0,
+      "topper_name": null,
+      "topper_score": null,
+      "colleges_joined": [],
+      "notable_achievement": "Ongoing batch — 178 students enrolled",
+      "honest_disclaimer": "Current batch — final results pending."
+    },
+    {
+      "course_id": "JEE-A",
+      "cohort_label": "JEE Advanced 2022-23",
+      "cohort_year": 2023,
+      "total_enrolled": 58,
+      "avg_score_improvement": "Significant problem-solving improvement",
+      "selection_rate": "43%",
+      "qualified_count": 25,
+      "topper_name": "Rohit",
+      "topper_score": "AIR 312",
+      "colleges_joined": [
+        "IIT Bombay (CSE)",
+        "IIT Delhi (Mech)",
+        "IIT Madras (EE)"
+      ],
+      "notable_achievement": "Rohit AIR 312 — admitted to IIT Bombay CSE",
+      "honest_disclaimer": "Past performance is indicative and not a guarantee of results."
+    },
+    {
+      "course_id": "JEE-A",
+      "cohort_label": "JEE Advanced 2023-24",
+      "cohort_year": 2024,
+      "total_enrolled": 64,
+      "avg_score_improvement": "Strong improvement in Advanced-pattern solving",
+      "selection_rate": "41%",
+      "qualified_count": 26,
+      "topper_name": "Kavya",
+      "topper_score": "AIR 201",
+      "colleges_joined": [
+        "IIT Delhi",
+        "IIT Bombay",
+        "IIT Kanpur",
+        "IIT Hyderabad"
+      ],
+      "notable_achievement": "Kavya AIR 201 — highest ever Apex Advanced rank",
+      "honest_disclaimer": "Past performance is indicative and not a guarantee of results."
+    },
+    {
+      "course_id": "JEE-D",
+      "cohort_label": "JEE Dropper Batch 2023-24",
+      "cohort_year": 2024,
+      "total_enrolled": 42,
+      "avg_score_improvement": "48 marks above previous year score",
+      "selection_rate": "76%",
+      "qualified_count": 32,
+      "topper_name": "Nikhil",
+      "topper_score": "98.9 percentile",
+      "colleges_joined": [
+        "IIT Roorkee",
+        "IIT BHU",
+        "NIT Surathkal",
+        "NIT Rourkela"
+      ],
+      "notable_achievement": "5 IIT seats from dropper batch — best ever",
+      "honest_disclaimer": "Past performance is indicative and not a guarantee of results."
+    },
+    {
+      "course_id": "JEE-D",
+      "cohort_label": "JEE Dropper Batch 2022-23",
+      "cohort_year": 2023,
+      "total_enrolled": 38,
+      "avg_score_improvement": "45 marks above previous attempt",
+      "selection_rate": "74%",
+      "qualified_count": 28,
+      "topper_name": "Priya",
+      "topper_score": "98.2 percentile",
+      "colleges_joined": [
+        "IIT Guwahati",
+        "NIT Pune",
+        "BITS Pilani"
+      ],
+      "notable_achievement": "74% students improved their rank on second attempt",
+      "honest_disclaimer": "Past performance is indicative and not a guarantee of results."
+    },
+    {
+      "course_id": "NEET-2Y",
+      "cohort_label": "NEET 2022-23 Batch",
+      "cohort_year": 2023,
+      "total_enrolled": 138,
+      "avg_score_improvement": "94 marks above mock test baseline",
+      "selection_rate": "70%",
+      "qualified_count": 97,
+      "topper_name": "Preethi",
+      "topper_score": "693/720",
+      "colleges_joined": [
+        "AIIMS Delhi",
+        "AIIMS Bhopal",
+        "Maulana Azad Medical College",
+        "Grant Medical College",
+        "SMS Medical College Jaipur"
+      ],
+      "notable_achievement": "Preethi scored 693 — admitted to AIIMS Delhi 2023",
+      "honest_disclaimer": "Past performance is indicative and not a guarantee of results."
+    },
+    {
+      "course_id": "NEET-2Y",
+      "cohort_label": "NEET 2023-24 Batch",
+      "cohort_year": 2024,
+      "total_enrolled": 155,
+      "avg_score_improvement": "97 marks above mock test baseline",
+      "selection_rate": "72%",
+      "qualified_count": 112,
+      "topper_name": "Aditya",
+      "topper_score": "715/720",
+      "colleges_joined": [
+        "AIIMS Delhi",
+        "AIIMS Nagpur",
+        "Vardhman Mahavir Medical College",
+        "KEM Hospital Mumbai",
+        "Jawaharlal Institute Puducherry"
+      ],
+      "notable_achievement": "Aditya scored 715/720 — AIR 18 in NEET 2024",
+      "honest_disclaimer": "Past performance is indicative and not a guarantee of results."
+    },
+    {
+      "course_id": "NEET-1Y",
+      "cohort_label": "NEET 1-Year 2022-23",
+      "cohort_year": 2023,
+      "total_enrolled": 92,
+      "avg_score_improvement": "69 marks in one year",
+      "selection_rate": "57%",
+      "qualified_count": 52,
+      "topper_name": "Meena",
+      "topper_score": "641/720",
+      "colleges_joined": [
+        "BJ Medical College Pune",
+        "Grant Medical Mumbai",
+        "Osmania Medical College"
+      ],
+      "notable_achievement": "52 students qualified NEET — strong conversion rate for 1-year program",
+      "honest_disclaimer": "Past performance is indicative and not a guarantee of results."
+    },
+    {
+      "course_id": "NEET-1Y",
+      "cohort_label": "NEET 1-Year 2023-24",
+      "cohort_year": 2024,
+      "total_enrolled": 108,
+      "avg_score_improvement": "71 marks in one year",
+      "selection_rate": "58%",
+      "qualified_count": 63,
+      "topper_name": "Santhosh",
+      "topper_score": "658/720",
+      "colleges_joined": [
+        "Kasturba Medical College",
+        "St Johns Medical College",
+        "PSG Medical College",
+        "JIPMER Puducherry"
+      ],
+      "notable_achievement": "63 students cleared NEET — 58% success rate for 1-year batch",
+      "honest_disclaimer": "Past performance is indicative and not a guarantee of results."
+    },
+    {
+      "course_id": "NEET-R",
+      "cohort_label": "NEET Repeater 2022-23",
+      "cohort_year": 2023,
+      "total_enrolled": 54,
+      "avg_score_improvement": "79 marks from previous NEET attempt",
+      "selection_rate": "59%",
+      "qualified_count": 32,
+      "topper_name": "Ritu",
+      "topper_score": "630/720",
+      "colleges_joined": [
+        "Sri Ramachandra Medical College",
+        "Amrita Institute",
+        "PSG Medical College"
+      ],
+      "notable_achievement": "32 repeaters cleared NEET on second attempt",
+      "honest_disclaimer": "Past performance is indicative and not a guarantee of results."
+    },
+    {
+      "course_id": "NEET-R",
+      "cohort_label": "NEET Repeater 2023-24",
+      "cohort_year": 2024,
+      "total_enrolled": 61,
+      "avg_score_improvement": "82 marks from previous NEET attempt",
+      "selection_rate": "61%",
+      "qualified_count": 37,
+      "topper_name": "Varun",
+      "topper_score": "648/720",
+      "colleges_joined": [
+        "Kasturba Medical College",
+        "Father Muller Medical College",
+        "Sri Devaraj Urs Medical College"
+      ],
+      "notable_achievement": "61% success rate — highest for repeater batch",
+      "honest_disclaimer": "Past performance is indicative and not a guarantee of results."
+    },
+    {
+      "course_id": "C10-CBSE",
+      "cohort_label": "CBSE Class 10 Batch 2022-23",
+      "cohort_year": 2023,
+      "total_enrolled": 120,
+      "avg_score_improvement": "18 marks above predicted score",
+      "selection_rate": "96%",
+      "qualified_count": 115,
+      "topper_name": "Siddharth",
+      "topper_score": "99% aggregate",
+      "colleges_joined": [],
+      "notable_achievement": "Siddharth scored 499/500 — Pune district topper",
+      "honest_disclaimer": "Past performance is indicative and not a guarantee of results."
+    },
+    {
+      "course_id": "C10-CBSE",
+      "cohort_label": "CBSE Class 10 Batch 2023-24",
+      "cohort_year": 2024,
+      "total_enrolled": 134,
+      "avg_score_improvement": "Average 87% aggregate across batch",
+      "selection_rate": "96%",
+      "qualified_count": 129,
+      "topper_name": "Ananya",
+      "topper_score": "99.2% aggregate",
+      "colleges_joined": [],
+      "notable_achievement": "3 students in top 10 CBSE Pune region 2024",
+      "honest_disclaimer": "Past performance is indicative and not a guarantee of results."
+    }
   ]
 }

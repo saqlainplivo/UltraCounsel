@@ -1,6 +1,7 @@
 """
 setup_db.py
-Creates all 16 database tables and seeds course catalog from data/courses.json.
+Creates all 18 database tables and seeds course catalog from data/courses.json.
+Includes: custom_appointments + batch_statistics (new in v2).
 
 Usage: python scripts/setup_db.py
 Requires: DATABASE_URL in .env
@@ -317,7 +318,51 @@ async def setup():
         )
     """)
 
-    print("\n✅ All 16 tables created!\n")
+    # ── 6. New v2 tables ──────────────────────────────────────────────────────
+
+    print("📅 Creating v2 tables (custom_appointments, batch_statistics)...")
+
+    await conn.execute("""
+        CREATE TABLE IF NOT EXISTS custom_appointments (
+            id            SERIAL PRIMARY KEY,
+            inquiry_ref   TEXT REFERENCES student_inquiries(inquiry_ref) ON DELETE SET NULL,
+            student_name  TEXT NOT NULL,
+            caller_hash   TEXT,
+            course_id     TEXT REFERENCES courses(id) ON DELETE SET NULL,
+            branch_id     TEXT REFERENCES branches(id) ON DELETE SET NULL,
+            appt_type     TEXT DEFAULT 'counseling',
+            appt_date     DATE NOT NULL,
+            appt_time     TEXT NOT NULL,
+            mode          TEXT DEFAULT 'offline',
+            meeting_link  TEXT,
+            notes         TEXT,
+            status        TEXT DEFAULT 'scheduled'
+                          CHECK (status IN ('scheduled', 'confirmed', 'completed', 'cancelled')),
+            created_at    TIMESTAMPTZ DEFAULT NOW(),
+            confirmed_at  TIMESTAMPTZ
+        )
+    """)
+
+    await conn.execute("""
+        CREATE TABLE IF NOT EXISTS batch_statistics (
+            id                    SERIAL PRIMARY KEY,
+            course_id             TEXT REFERENCES courses(id) ON DELETE CASCADE,
+            cohort_label          TEXT NOT NULL,
+            cohort_year           INT,
+            total_enrolled        INT,
+            avg_score_improvement TEXT,
+            selection_rate        TEXT,
+            qualified_count       INT DEFAULT 0,
+            topper_name           TEXT,
+            topper_score          TEXT,
+            colleges_joined       TEXT[],
+            notable_achievement   TEXT,
+            honest_disclaimer     TEXT DEFAULT 'Past performance is indicative and not a guarantee of results.',
+            created_at            TIMESTAMPTZ DEFAULT NOW()
+        )
+    """)
+
+    print("\n✅ All 18 tables created!\n")
 
     # ── 6. Seed from courses.json ─────────────────────────────────────────────
 
@@ -440,10 +485,32 @@ async def setup():
         o.get("selection_rate"), o.get("past_rankers"), o.get("note"))
     print(f"  ✔ {len(data.get('outcomes', []))} outcome records seeded")
 
+    # Batch statistics (v2)
+    for bs in data.get("batch_statistics", []):
+        colleges = bs.get("colleges_joined")
+        if isinstance(colleges, list):
+            colleges = colleges if colleges else None
+        await conn.execute("""
+            INSERT INTO batch_statistics (
+                course_id, cohort_label, cohort_year, total_enrolled,
+                avg_score_improvement, selection_rate, qualified_count,
+                topper_name, topper_score, colleges_joined,
+                notable_achievement, honest_disclaimer
+            ) VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12)
+        """,
+        bs["course_id"], bs["cohort_label"], bs.get("cohort_year"),
+        bs.get("total_enrolled"), bs.get("avg_score_improvement"),
+        bs.get("selection_rate"), bs.get("qualified_count", 0),
+        bs.get("topper_name"), bs.get("topper_score"),
+        colleges, bs.get("notable_achievement"),
+        bs.get("honest_disclaimer", "Past performance is indicative and not a guarantee of results."))
+    print(f"  ✔ {len(data.get('batch_statistics', []))} batch statistics records seeded")
+
     await conn.close()
 
-    print("\n🎉 Database setup complete! UltraCounsel is ready.")
-    print("   16 tables created + full course catalog seeded.")
+    print("\n🎉 Database setup complete! UltraCounsel v2 is ready.")
+    print("   18 tables created + full course catalog + batch statistics seeded.")
+    print(f"   Branches: {len(data.get('branches', []))} | Batches: {len(data.get('batches', []))} | Batch stats: {len(data.get('batch_statistics', []))}")
     print("\nNext steps:")
     print("  1. Set all variables in .env")
     print("  2. Run: python -m uvicorn main:app --reload")
