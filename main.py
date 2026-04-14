@@ -109,20 +109,20 @@ LANDING_PAGE_HTML = """<!DOCTYPE html>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
-      --bg:        #FFFFFF;
-      --bg2:       #FAFAFA;
-      --bg3:       #F4F4F5;
-      --border:    #E4E4E7;
-      --border2:   #D4D4D8;
+      --bg:        #0A0A0A;
+      --bg2:       #111111;
+      --bg3:       #1A1A1A;
+      --border:    #27272A;
+      --border2:   #3F3F46;
       --acc:       #FC5F2B;
       --acc-hover: #E54E1F;
-      --acc-soft:  rgba(252, 95, 43, 0.08);
-      --acc-soft2: rgba(252, 95, 43, 0.14);
-      --acc-border:rgba(252, 95, 43, 0.3);
-      --text:      #09090B;
-      --sub:       #3F3F46;
+      --acc-soft:  rgba(252, 95, 43, 0.12);
+      --acc-soft2: rgba(252, 95, 43, 0.18);
+      --acc-border:rgba(252, 95, 43, 0.4);
+      --text:      #FAFAFA;
+      --sub:       #A1A1AA;
       --muted:     #71717A;
-      --light:     #A1A1AA;
+      --light:     #52525B;
     }
     html { scroll-behavior: smooth; }
     body {
@@ -142,7 +142,7 @@ LANDING_PAGE_HTML = """<!DOCTYPE html>
     /* ── NAV ── */
     nav {
       position: sticky; top: 0; z-index: 100;
-      background: rgba(255,255,255,0.96);
+      background: rgba(10,10,10,0.94);
       backdrop-filter: blur(10px);
       border-bottom: 1px solid var(--border);
       padding: 0 2rem;
@@ -169,7 +169,7 @@ LANDING_PAGE_HTML = """<!DOCTYPE html>
       border-radius: 0.65rem !important;
       padding: 0.5rem 1.1rem !important;
       transition: background 0.15s, transform 0.12s !important;
-      box-shadow: 0 2px 12px rgba(252,95,43,0.28) !important;
+      box-shadow: 0 2px 12px rgba(252,95,43,0.35) !important;
     }
     .nav-cta:hover { background: var(--acc-hover) !important; transform: translateY(-1px) !important; }
 
@@ -184,14 +184,14 @@ LANDING_PAGE_HTML = """<!DOCTYPE html>
     .btn-orange {
       background: var(--acc);
       color: #fff;
-      box-shadow: 0 4px 24px rgba(252,95,43,0.3);
+      box-shadow: 0 4px 24px rgba(252,95,43,0.4);
     }
-    .btn-orange:hover { background: var(--acc-hover); transform: translateY(-2px); box-shadow: 0 8px 30px rgba(252,95,43,0.35); }
+    .btn-orange:hover { background: var(--acc-hover); transform: translateY(-2px); box-shadow: 0 8px 30px rgba(252,95,43,0.5); }
     .btn-outline {
       background: var(--bg);
       color: var(--text);
       border: 1.5px solid var(--border2);
-      box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+      box-shadow: 0 1px 4px rgba(0,0,0,0.4);
     }
     .btn-outline:hover { border-color: var(--acc); color: var(--acc); background: var(--acc-soft); transform: translateY(-1px); }
 
@@ -206,7 +206,7 @@ LANDING_PAGE_HTML = """<!DOCTYPE html>
     .hero::before {
       content: '';
       position: absolute; inset: 0;
-      background: radial-gradient(ellipse 80% 50% at 50% -10%, rgba(252,95,43,0.07) 0%, transparent 70%);
+      background: radial-gradient(ellipse 80% 50% at 50% -10%, rgba(252,95,43,0.12) 0%, transparent 70%);
       pointer-events: none;
     }
     .hero-eyebrow {
@@ -341,7 +341,7 @@ LANDING_PAGE_HTML = """<!DOCTYPE html>
       border-radius: 1.25rem;
       padding: 2rem 2rem;
       display: flex; flex-direction: column; gap: 1.1rem;
-      box-shadow: 0 2px 20px rgba(0,0,0,0.06);
+      box-shadow: 0 2px 20px rgba(0,0,0,0.45);
     }
     .info-row { display: flex; align-items: flex-start; gap: 1rem; }
     .info-icon {
@@ -372,7 +372,7 @@ LANDING_PAGE_HTML = """<!DOCTYPE html>
     }
     .course-card:hover {
       border-color: var(--acc-border);
-      box-shadow: 0 6px 30px rgba(252,95,43,0.1);
+      box-shadow: 0 6px 30px rgba(252,95,43,0.22);
       transform: translateY(-3px);
     }
     .c-icon-wrap {
@@ -419,7 +419,7 @@ LANDING_PAGE_HTML = """<!DOCTYPE html>
       display: flex; align-items: center; justify-content: center;
       font-weight: 900; font-size: 1rem; color: #fff;
       position: relative; z-index: 1;
-      box-shadow: 0 4px 16px rgba(252,95,43,0.35);
+      box-shadow: 0 4px 16px rgba(252,95,43,0.5);
     }
     .step-title { font-size: 1rem; font-weight: 800; color: var(--text); }
     .step-desc  { font-size: 0.85rem; color: var(--muted); max-width: 200px; }
